@@ -1,0 +1,29 @@
+.Profile-haeding-text-rapo h3 {
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+    font-size: 26px;
+}
+
+.profile-section {
+    padding: 30px;
+}
+
+.profile-txt a {
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+    cursor: pointer;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.profile-txt p {
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+
+
+}
+
+.Profile-haeding-text-rapo {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}

@@ -1,0 +1,58 @@
+.family-information-card {
+    position: relative;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.table-container {
+    max-height: 100%;
+    overflow: auto;
+    width: 100%;
+}
+
+/* Style the scrollbar */
+.table-container::-webkit-scrollbar {
+    width: 8px;
+    /* Width of the scrollbar */
+    background: transparent;
+
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 4px;
+    border: transparent;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background-color: transparent;
+}
+
+.table-container table {
+    width: 100%;
+}
+
+.table-container table th {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+    border-color: transparent;
+    background-color: transparent;
+
+}
+
+.table-container table td {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    border-color: transparent;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
