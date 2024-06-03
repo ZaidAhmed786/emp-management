@@ -1,0 +1,11 @@
+ .center-align-item {
+    margin-left: auto !important;   
+ }
+ .center-align-item .profile{ 
+    margin: 0 10px;
+ } 
+ 
+ .layout {
+   margin-left: 280px; 
+   background-color: red !important;
+ }
