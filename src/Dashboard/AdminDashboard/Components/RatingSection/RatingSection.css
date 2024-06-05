@@ -1,0 +1,68 @@
+.rating-content-main-rapo {
+    --tw-bg-opacity: 1;
+    background-color: rgb(22 25 28 / var(--tw-bg-opacity));
+    --tw-border-opacity: 1;
+    border-color: rgb(46 56 64 / var(--tw-border-opacity));
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    --tw-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+    --tw-shadow-colored: 0 1px 1px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.rating-heading-mini-txt-rapo h6 {
+    font-size: 15px;
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+}
+
+.rating-heading-mini-txt-rapo p {
+    --tw-text-opacity: 1;
+    color: rgb(85 206 99 / var(--tw-text-opacity));
+    font-size: 15px;
+}
+
+.rating-heading-rapo h3 {
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+}
+
+/* Custom progress bar fill */
+.progress-bar-container {
+    position: relative;
+    height: 7px;
+    background-color: #ccc;
+    border-radius: 0.25rem;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    border-radius: 0.25rem 0 0 0.25rem;
+    transition: width 0.4s ease;
+}
+
+/* Orange fill for the progress bar */
+.bg-orange {
+    background-color: #FF8042;
+}
+
+/* Custom handle */
+.progress-bar-handle {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border: 2px solid #FF8042;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+    transition: left 0.4s ease;
+}
+
+.progress-bar-txt-rapo p {
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+    margin-top: 2px;
+}

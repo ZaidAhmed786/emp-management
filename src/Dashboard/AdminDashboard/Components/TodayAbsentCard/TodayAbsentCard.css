@@ -1,0 +1,71 @@
+.card-title-span {
+    color: red !important;
+    font-weight: 700 !important;
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
+    background-color: rgba(255, 0, 0, 0.288) !important;
+}
+
+.image-name-rapo p {
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.image {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+.TodayAbsentCard-data-main-rapo {
+    --tw-border-opacity: 1;
+    border-color: rgb(46 56 64 / var(--tw-border-opacity));
+    padding: 15px;
+    border-width: 1px;
+    margin-bottom: 15px;
+}
+
+.heading-txt-span-rapo h6 {
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+}
+
+.heading-txt-span-rapo span {
+    --tw-text-opacity: 1;
+    color: rgb(142 142 142 / var(--tw-text-opacity));
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.span {
+    --tw-text-opacity: 1;
+    color: rgb(246 45 81 / var(--tw-text-opacity));
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    background-color: rgba(255, 0, 0, 0.274);
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+
+
+.heading-txt-span-rapo {
+    text-align: justify;
+}
+
+.approved {
+    background-color: rgba(14, 65, 14, 0.284);
+    color: rgb(24, 132, 24);
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}

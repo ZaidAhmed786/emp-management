@@ -1,0 +1,17 @@
+.chart-heading-main-box {
+    background-color: rgb(22 25 28);
+    --tw-border-opacity: 1;
+    border-color: rgb(46 56 64 / var(--tw-border-opacity));
+    --tw-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+    --tw-shadow-colored: 0 1px 1px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-width: 1px;
+
+    border-radius: 0.25rem;
+}
+
+.chart-heading-main-box h4 {
+    text-align: center;
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+}

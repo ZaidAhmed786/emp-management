@@ -1,0 +1,80 @@
+.f-p-b {
+    width: 30%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(116 96 238 / var(--tw-bg-opacity));
+    height: 1rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.s-p-b {
+    width: 22%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 188 52 / var(--tw-bg-opacity));
+    height: 1rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-p-b {
+    width: 24%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(85 206 99 / var(--tw-bg-opacity));
+    height: 1rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fo-p-b {
+    width: 21%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(246 45 81 / var(--tw-bg-opacity));
+    height: 1rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fi-p-b {
+    width: 10%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 158 251 / var(--tw-bg-opacity));
+    height: 1rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.f-p-b,
+.fi-p-b,
+.fo-p-b,
+.s-p-b,
+.t-p-b {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.icon-heading h6,
+.mini-txt p {
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+    margin-bottom: 0px;
+}
