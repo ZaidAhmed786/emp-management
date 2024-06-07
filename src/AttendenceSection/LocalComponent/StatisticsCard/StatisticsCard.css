@@ -1,0 +1,71 @@
+.StatisticsCard-heading h5 {
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.StatisticsCard-txt h5 {
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.progress-bar-container {
+    position: relative;
+    height: 5px;
+    width: 100%;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+/* Custom progress bar fill */
+.progress-bar-fill {
+    height: 100%;
+    border-radius: 0.25rem 0 0 0.25rem;
+    transition: width 0.4s ease;
+}
+
+/* Custom handle */
+.progress-bar-handle {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+    transition: left 0.4s ease;
+}
+
+/* Specific color classes for each progress bar */
+.bg-overtime {
+    background-color: #007bff;
+}
+
+/* Blue */
+.bg-today {
+    background-color: #ff5733;
+}
+
+/* Orange */
+.bg-this-week {
+    background-color: #f0e130;
+}
+
+/* Yellow */
+.bg-this-month {
+    background-color: #33ff57;
+}
+
+/* Green */
+.bg-remaining {
+    background-color: #ff3333;
+}
+
+/* Red */

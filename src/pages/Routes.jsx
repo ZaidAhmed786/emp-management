@@ -6,6 +6,7 @@ import Login from "./auth/login/Login";
 import Layout from "./layout/Layout";
 import Profile from "../components/Profile/DashboardProfile/DashboardProfile";
 import AdminDashboard from "../components/Dashboard/AdminDashboard/Components/AdminInfoSection/AdminInfoSection"
+import AttendancePage from '../AttendenceSection/AttendancePage/AttendancePage.jsx'
 const ManageRoutes = () => {
   return (
     <>
@@ -48,6 +49,14 @@ const ManageRoutes = () => {
             element={
               <ProtectedRoute>
                 <AdminDashboard />
+              </ProtectedRoute>
+            }
+          />
+           <Route
+            path="/attendance-page"
+            element={
+              <ProtectedRoute>
+                <AttendancePage />
               </ProtectedRoute>
             }
           />
