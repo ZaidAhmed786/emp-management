@@ -10,12 +10,12 @@
     border-radius: 0.25rem;
 }
 
-.icon {
+.icon-two {
     display: flex;
     align-items: center;
 }
 
-.icon i {
+.icon-two i {
 
     color: orange;
     background-color: rgba(255, 166, 0, 0.195);

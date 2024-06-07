@@ -27,15 +27,15 @@ const RatingSection = () => {
   };
 
   return (
-    <section className="bg-dark pb-5">
+    <section className="bg-white pb-5">
       <div className="container">
         <div className="row">
           {RatingSectionData.map((item, index) => (
             <div key={index} className="col-lg-3 col-md-6 col-sm-12 ">
-              <div className="rating-content-main-rapo p-4">
+              <div className="rating-content-main-rapo p-4 bg-white">
                 <div className="rating-heading-mini-txt-rapo d-flex justify-content-between">
-                  <h6>{item.topheading}</h6>
-                  <p
+                  <h6 className="text-dark">{item.topheading}</h6>
+                  <p 
                     style={{
                       color: item.minitext.startsWith("+") ? "green" : "red",
                     }}
@@ -44,7 +44,7 @@ const RatingSection = () => {
                   </p>
                 </div>
                 <div className="rating-heading-rapo">
-                  <h3>{item.heading}</h3>
+                  <h3 className="text-dark">{item.heading}</h3>
                 </div>
                 <div className="progress-bar-txt-rapo">
                   <div
@@ -60,7 +60,7 @@ const RatingSection = () => {
                       style={{ left: `${progress}%` }}
                     ></div>
                   </div>
-                  <p>{item.shortinfo}</p>
+                  <p className="text-dark">{item.shortinfo}</p>
                 </div>
               </div>
             </div>

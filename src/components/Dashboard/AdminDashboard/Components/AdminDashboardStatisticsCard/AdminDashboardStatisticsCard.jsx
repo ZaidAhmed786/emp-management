@@ -45,24 +45,24 @@ function AdminDashboardStatisticsCard() {
   };
 
   return (
-    <Card className="TimesheetCard g-5">
+    <Card className="TimesheetCard  bg-white g-5">
       <Card.Body className="card-body">
-        <h3 className="card-title">Statistics</h3>
+        <h3 className="card-title text-dark">Statistics</h3>
         {AdminDashboardStatisticsCardData.map((item, index) => {
           const progressColorClass = getProgressColor(item.Days);
           const progressValue = progress[index];
           return (
             <div
               key={index}
-              className="text-time-box-rapo border border-dark border-2"
+              className="text-time-box-rapo border border-light border-3"
             >
               <div className="StatisticsCard-heading-txt-rapo d-flex justify-content-between">
                 <div className="StatisticsCard-heading">
-                  <h5>{item.Days}</h5>
+                  <h5 className="text-dark">{item.Days}</h5>
                 </div>
                 <div className="StatisticsCard-txt d-flex">
-                  <h5>{item.Rating}</h5>
-                  <h5>{item.Timing}</h5>
+                  <h5 className="text-dark">{item.Rating}</h5>
+                  <h5 className="text-dark">{item.Timing}</h5>
                 </div>
               </div>
               <div

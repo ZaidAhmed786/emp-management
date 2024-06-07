@@ -1,16 +1,16 @@
 .tab-container {
-    --tw-border-opacity: 1;
-    border-color: rgb(46 56 64 / var(--tw-border-opacity));
+   --tw-border-opacity: 1;
+    border-color: rgb(46 56 64 / 18%);
     --tw-bg-opacity: 1;
-    background-color: rgb(22 25 28 / var(--tw-bg-opacity));
+    background-color: white;
     border-top-style: double;
 }
 
 .Card-col {
-    --tw-border-opacity: 1;
+    /* --tw-border-opacity: 1;
     border-color: rgb(46 56 64 / var(--tw-border-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgb(22 25 28 / var(--tw-bg-opacity));
+    background-color: rgb(22 25 28 / var(--tw-bg-opacity)); */
     height: 90%;
 }
 
@@ -20,9 +20,8 @@
 
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
-    /* isolation: isolate; */
-    border-color: rgb(22 25 28 / var(--tw-bg-opacity));
-    ;
+   border-color: rgb(255 255 255);
+    color: black;
 }
 
 .nav-link:focus-visible {
@@ -82,7 +81,11 @@
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-    color: white;
+   color: black;
     background-color: transparent;
     border-color: transparent;
+}
+.tab-section{
+    
+background-color: rgb(246 246 246);
 }

@@ -4,9 +4,9 @@ import { PersonalInformationCardData } from "../Context";
 import { MdOutlineEdit } from "react-icons/md";
 const PersonalInformationCard = () => {
   return (
-    <div className="mt-3 Card-col p-4">
+    <div className="mt-3 Card-col bg-white p-4">
       <div className="PersonalInformationCard-heading mb-3 d-flex align-items-center">
-        <h3>Personal Informations</h3>
+        <h3 className="text-dark">Personal Informations</h3>
         <a href="#" className="icon">
           <MdOutlineEdit />
         </a>
@@ -21,7 +21,7 @@ const PersonalInformationCard = () => {
               width: "50%",
             }}
           >
-            <h6>{item.heading}</h6>
+            <h6 className="text-dark">{item.heading}</h6>
           </div>
           <div className="d-grid text-main-rap align-items-center">
             <div className="image-txt-rapo d-flex">

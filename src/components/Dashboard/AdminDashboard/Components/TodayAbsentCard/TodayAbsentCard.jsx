@@ -7,15 +7,15 @@ import { TodayAbsentCardData } from "../../Content";
 
 function TodayAbsentCard() {
   return (
-    <Card className="TimesheetCard g-5">
+    <Card className="TimesheetCard bg-white g-5">
       <Card.Body className="card-body">
-        <h3 className="card-title d-flex gap-2">
+        <h3 className="card-title d-flex gap-2 text-dark">
           Today Absent <span className="card-title-span p-2">5</span>
         </h3>
         {TodayAbsentCardData.map((item) => (
           <div
             key={item}
-            className="TodayAbsentCard-data-main-rapo border border-dark border-2"
+            className="TodayAbsentCard-data-main-rapo border border-dark border-1"
           >
             <div className="image-name-rapo d-flex gap-2 align-items-center">
               <img
@@ -23,12 +23,12 @@ function TodayAbsentCard() {
                 src={item.image}
                 alt=""
               />
-              <p>{item.minitext}</p>
+              <p className="text-dark">{item.minitext}</p>
             </div>
             <div className="heading-txt-span-main-rapo d-flex justify-content-between  align-items-center">
               <div className="heading-txt-span-rapo d-grid align-items-start my-2">
-                <h6>{item.heading}</h6>
-                <span>{item.spanone}</span>
+                <h6 className="text-dark">{item.heading}</h6>
+                <span className="text-dark">{item.spanone}</span>
               </div>
               <div className="">
                 <span

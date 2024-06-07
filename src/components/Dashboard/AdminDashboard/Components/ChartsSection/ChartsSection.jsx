@@ -41,8 +41,8 @@ const ChartsSection = () => {
       <div className="container pt-5">
         <div className="row">
           <div className="col-lg-6 col-md-12 col-sm-12">
-            <div className="chart-heading-main-box p-4 text-center">
-              <h4>Total Revenue</h4>
+            <div className="chart-heading-main-box p-4 text-center bg-white">
+              <h4 className="text-white">Total Revenue</h4>
               <div className="chart">
                 <ResponsiveContainer width="100%" height={300}>
                   <BarChart
@@ -72,8 +72,8 @@ const ChartsSection = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12 mt-lg-0 mt-md-5 mt-sm-5">
-            <div className="chart-heading-main-box p-4 text-center">
-              <h4>Sales Overview</h4>
+            <div className="chart-heading-main-box p-4 text-center bg-white">
+              <h4 className="text-dark">Sales Overview</h4>
               <div className="chart">
                 <ResponsiveContainer width="100%" height={300}>
                   <LineChart

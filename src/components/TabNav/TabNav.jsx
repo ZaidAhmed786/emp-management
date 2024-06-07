@@ -9,7 +9,7 @@ import "./TabNav.css";
 function TabNav() {
   return (
     <>
-      <section className="bg-dark px-3">
+      <section className="tab-section px-3">
         <div className="container tab-container">
           <nav>
             <div className="nav nav-tabs" id="nav-tab" role="tablist">

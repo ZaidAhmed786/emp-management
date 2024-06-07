@@ -71,7 +71,7 @@
     --tw-bg-opacity: 1;
     background-color: rgb(22 25 28 / var(--tw-bg-opacity));
     --tw-border-opacity: 1;
-    border-color: rgb(46 56 64 / var(--tw-border-opacity));
+    border-color: white;
     --tw-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
     --tw-shadow-colored: 0 1px 1px 0 var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);

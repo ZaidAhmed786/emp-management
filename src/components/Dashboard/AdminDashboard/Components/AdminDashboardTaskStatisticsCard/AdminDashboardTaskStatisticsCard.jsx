@@ -6,20 +6,20 @@ import { AdminDashboardTaskStatisticsCardData } from "../../Content";
 
 function AdminDashboardTaskStatisticsCard() {
   return (
-    <Card className="TimesheetCard g-5">
+    <Card className="TimesheetCard bg-white g-5">
       <Card.Body className="card-body">
-        <h3 className="card-title">Task Statistics</h3>
+        <h3 className="card-title text-dark">Task Statistics</h3>
         <div className="row two-txt-boxes-main-rapo d-flex justify-content-between">
           <div className="col-lg-6">
-            <div className="first-txt-box border border-dark border-2  p-2">
-              <p>Total Tasks</p>
-              <h3>385</h3>
+            <div className="first-txt-box border border-dark border-1  p-2">
+              <p className="text-dark"> Total Tasks</p>
+              <h3 className="text-dark">385</h3>
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="first-txt-box border border-dark border-2 p-2">
-              <p>Overdue Tasks</p>
-              <h3>19</h3>
+            <div className="first-txt-box border border-dark border-1 p-2">
+              <p className="text-dark">Overdue Tasks</p>
+              <h3 className="text-dark">19</h3>
             </div>
           </div>
         </div>
@@ -37,10 +37,10 @@ function AdminDashboardTaskStatisticsCard() {
           >
             <div className="icon-heading d-flex align-items-center gap-2">
               <i style={{ color: item.color }}>{item.icon}</i>
-              <h6>{item.heading}</h6>
+              <h6 className="text-dark">{item.heading}</h6>
             </div>
             <div className="mini-txt">
-              <p>{item.minitext}</p>
+              <p className="text-dark"> {item.minitext}</p>
             </div>
           </div>
         ))}

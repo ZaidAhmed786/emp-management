@@ -1,26 +1,23 @@
+
 .ProfileFristSectioncontainer {
-    background-color: rgb(35, 34, 34);
-    --tw-bg-opacity: 1;
-    background-color: rgb(22 25 28 / var(--tw-bg-opacity));
-    --tw-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+   --tw-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
     --tw-shadow-colored: 0 1px 1px 0 var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-    border-radius: 0.25rem;
+   
 }
+
 
 .name-txt {
     line-height: 0px;
 }
 
 .name-txt h3 {
-    --tw-text-opacity: 1;
-    color: rgb(187 196 204 / var(--tw-text-opacity));
+   color:black;
     font-size: 1.5rem;
 }
 
 .name-txt p {
-    --tw-text-opacity: 1;
-    color: rgb(142 142 142 / var(--tw-text-opacity));
+
     font-size: 0.75rem;
 }
 
@@ -70,8 +67,8 @@
 }
 
 .info-txt-rapo p {
-    --tw-text-opacity: 1;
-    color: rgb(142 142 142 / var(--tw-text-opacity));
+   
+    color: #212529bf;
     font-size: 15px;
 
 }
@@ -107,7 +104,7 @@
 }
 
 .icon {
-    background-color: #f0f8ffb6;
+    background-color: #c9cccf;
     border-radius: 100%;
     color: white;
     margin-left: auto;
@@ -117,7 +114,7 @@
 }
 
 .line {
-    color: rgba(255, 255, 255, 0.158);
+    color: #21252959;
     border-left: dashed;
 }
 
@@ -135,9 +132,13 @@
 }
 
 .BankInformationCard-col {
-    --tw-border-opacity: 1;
-    border-color: rgb(46 56 64 / var(--tw-border-opacity));
-    --tw-bg-opacity: 1;
-    background-color: rgb(22 25 28 / var(--tw-bg-opacity));
+    
     height: auto;
+}
+.ProfileFristSection{
+
+background-color: rgb(246 246 246);
+}
+.no-margin{
+    margin-bottom:0px;
 }

@@ -7,7 +7,7 @@ import TodayAbsentCard from "../TodayAbsentCard/TodayAbsentCard";
 const AdminDashboardCards = () => {
   return (
     <>
-      <section className="bg-dark">
+      <section className="bg-light">
         <Container>
           <Row>
             <div className="col-lg-4 col-md-6 col-sm-12">
