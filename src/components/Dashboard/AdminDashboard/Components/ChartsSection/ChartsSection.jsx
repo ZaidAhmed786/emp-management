@@ -37,7 +37,7 @@ const ChartsSection = () => {
   const [hoveredBar, setHoveredBar] = useState(null);
 
   return (
-    <section className="bg-dark pb-5">
+    <section className="bg-light pb-5">
       <div className="container pt-5">
         <div className="row">
           <div className="col-lg-6 col-md-12 col-sm-12">

@@ -3,7 +3,7 @@ const Home = () => {
    
   return (
     <>
-      <div>ABCD Testing</div> 
+      {/* <div>ABCD Testing</div>  */}
     </>
   )
 }

@@ -13,7 +13,7 @@ const TopNavbar = () => {
     dispatch(logout());
   };
   return (
-    <Navbar expand="lg" className="bg-light">
+    <Navbar expand="lg" className="bg-light fixed-top" >
       <Container>
         <Navbar.Brand href="/">Leilani Tech</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -40,10 +40,10 @@ const TopNavbar = () => {
               />
             </Nav.Link>
             <Nav className="profile">
-              <img src={Profile} alt="" className="bg-dark" />
+              <img src={Profile} alt="" className="bg-light" />
             </Nav>
             <NavDropdown title=" John Doe" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+              <NavDropdown.Item href="profile">profile</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Another action
               </NavDropdown.Item>

@@ -6,7 +6,7 @@ import { ProfileFristSectionData } from "../Context";
 const ProfileFristSection = () => {
   return (
     <>
-      <section className="ProfileFristSection bg-dark">
+      <section className="ProfileFristSection bg-dark px-3">
         <div className="container ProfileFristSectioncontainer">
           <div className="row">
             <div className="col-lg-7 d-flex mt-2">

@@ -18,7 +18,7 @@ const Login = () => {
   let location = useLocation();
   const login = authSlice.actions.login;
   const dispatch = useDispatch();
-  if (isLoggedIn) {
+  if (!isLoggedIn) {
     return <Navigate to="/" state={{ from: location }} replace />;
   }
   //get user email and password

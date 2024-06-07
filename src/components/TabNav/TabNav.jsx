@@ -9,7 +9,7 @@ import "./TabNav.css";
 function TabNav() {
   return (
     <>
-      <section className="bg-dark">
+      <section className="bg-dark px-3">
         <div className="container tab-container">
           <nav>
             <div className="nav nav-tabs" id="nav-tab" role="tablist">
@@ -65,7 +65,7 @@ function TabNav() {
             </div>
           </nav>
         </div>
-        <div className="container profile-tab-container mt-5">
+        <div className="container profile-tab-container mt-5 px-0">
           <div className="tab-content my-3" id="nav-tabContent">
             <div
               className="tab-pane fade show active"

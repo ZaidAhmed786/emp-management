@@ -39,12 +39,9 @@ const Sidebar = () => {
               </a>
             </li>
             <li className="item">
-              <Collapsible title = "Statistics" icon = {<FiGrid/>}>
+              <Collapsible title = "Dashboard" icon = {<FiGrid/>}>
                 <ul className="submenu_items">
-                  <a href="#" className="nav_link sublink">Nav Sub Link</a>
-                  <a href="#" className="nav_link sublink">Nav Sub Link</a>
-                  <a href="#" className="nav_link sublink">Nav Sub Link</a>
-                  <a href="#" className="nav_link sublink">Nav Sub Link</a>
+                  <a href="admin-dashboard" className="nav_link sublink">Admin Dashboard</a>
                 </ul>
               </Collapsible>
             </li>

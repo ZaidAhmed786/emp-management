@@ -6,7 +6,8 @@ import TabNav from "../TabNav/TabNav";
 const DashboardProfile = () => {
   return (
     <>
-      <section className="profile-section bg-dark">
+     <div >
+     <section className="profile-section bg-dark">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -28,6 +29,7 @@ const DashboardProfile = () => {
       </section>
       <ProfileFristSection />
       <TabNav />
+     </div>
     </>
   );
 };
