@@ -1,5 +1,5 @@
 import React from "react";
-import "../InfoBankStatutory/InfoBankStatutory.css";
+import "../InfoBankStatutory/InfoBankStatutory";
 const ESIInformationSection = () => {
   return (
     <>

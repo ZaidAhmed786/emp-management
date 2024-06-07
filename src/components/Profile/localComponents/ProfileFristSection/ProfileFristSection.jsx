@@ -1,7 +1,7 @@
 import React from "react";
-import avatar from "../images/avatar-02.jpg";
+import avatar from "../../../images/avatar-02.jpg";
 import "./ProfileFristSection.css";
-import { ProfileFristSectionData } from "../Context";
+import { ProfileFristSectionData } from "../../Context/index";
 import classNames from 'classnames';
 
 const ProfileFristSection = () => {

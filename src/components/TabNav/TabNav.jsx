@@ -1,10 +1,10 @@
-import BankInformationCard from "../BankInformationCard/BankInformationCard";
-import EducationInformationsCard from "../EducationInformationsCard/EducationInformationsCard";
-import EmergencyContactCard from "../EmergencyContactCard/EmergencyContactCard";
-import ExperienceCard from "../ExperienceCard/ExperienceCard";
-import FamilyInformationsCard from "../FamilyInformationsCard/FamilyInformationsCard";
-import InfoBankStatutory from "../InfoBankStatutory/InfoBankStatutory";
-import PersonalInformationCard from "../PersonalInformationCard/PersonalInformationCard";
+import BankInformationCard from "../Profile/localComponents/BankInformationCard/BankInformationCard";
+import EducationInformationsCard from "../Profile/localComponents/EducationInformationsCard/EducationInformationsCard";
+import EmergencyContactCard from "../Profile/localComponents/EmergencyContactCard/EmergencyContactCard";
+import ExperienceCard from "../Profile/localComponents/ExperienceCard/ExperienceCard";
+import FamilyInformationsCard from "../Profile/localComponents/FamilyInformationsCard/FamilyInformationsCard";
+import InfoBankStatutory from "../Profile/localComponents/InfoBankStatutory/InfoBankStatutory";
+import PersonalInformationCard from "../Profile/localComponents/PersonalInformationCard/PersonalInformationCard";
 import "./TabNav.css";
 function TabNav() {
   return (

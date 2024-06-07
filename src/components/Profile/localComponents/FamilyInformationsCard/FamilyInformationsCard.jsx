@@ -2,7 +2,7 @@ import React from "react";
 import "../ProfileFristSection/ProfileFristSection.css";
 import { MdOutlineEdit } from "react-icons/md";
 import "./FamilyInformationsCard.css";
-import { FamilyInformationsCardData } from "../Context";
+import { FamilyInformationsCardData } from "../../Context/index";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
 
 const FamilyInformationsCard = () => {

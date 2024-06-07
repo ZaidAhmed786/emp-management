@@ -1,8 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./DashboardProfile.css";
-import ProfileFristSection from "../ProfileFristSection/ProfileFristSection";
-import TabNav from "../TabNav/TabNav";
+import ProfileFristSection from "../../Profile/localComponents/ProfileFristSection/ProfileFristSection";
+import TabNav from "../../TabNav/TabNav";
 const DashboardProfile = () => {
   return (
     <>

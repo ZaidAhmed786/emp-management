@@ -1,7 +1,7 @@
 import { IconBase } from "react-icons/lib";
 
 import { MdOutlineEdit } from "react-icons/md";
-import DropdownMenu from "../DropdownMenu/DropdownMenu";
+import DropdownMenu from "../localComponents/DropdownMenu/DropdownMenu";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 

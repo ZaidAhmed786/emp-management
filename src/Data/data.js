@@ -5,7 +5,7 @@ import { IoDiamondOutline } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
 import { FaRegCircleDot } from "react-icons/fa6";
 import { MdOutlineEdit } from "react-icons/md";
-import DropdownMenu from "../DropdownMenu/DropdownMenu";
+import DropdownMenu from "../localComponents/DropdownMenu/DropdownMenu";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 

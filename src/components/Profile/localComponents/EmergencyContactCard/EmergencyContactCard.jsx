@@ -1,6 +1,6 @@
 import React from "react";
 import "../ProfileFristSection/ProfileFristSection.css";
-import { EmergencyContactCardData } from "../Context";
+import { EmergencyContactCardData } from "../../Context/index";
 import { MdOutlineEdit } from "react-icons/md";
 
 const EmergencyContactCard = () => {

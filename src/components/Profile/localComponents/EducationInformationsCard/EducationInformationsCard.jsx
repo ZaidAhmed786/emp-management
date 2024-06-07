@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import "../ProfileFristSection/ProfileFristSection.css";
-import { EducationInformationsCardData } from "../Context";
+import { EducationInformationsCardData } from "../../Context/index";
 import "./EducationInformationsCard.css";
 import { MdOutlineEdit } from "react-icons/md";
-import PopUp from "../PopUp/PopUp";
+import PopUp from "../../../PopUp/PopUp";
 const EducationInformationsCard = () => {
   const modalButtonRef = useRef(null);
 

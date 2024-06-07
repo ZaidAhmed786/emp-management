@@ -1,6 +1,6 @@
 import React from "react";
 import "../ProfileFristSection/ProfileFristSection.css";
-import { ExperienceCardData } from "../Context";
+import { ExperienceCardData } from "../../Context/index";
 import "./ExperienceCard.css";
 import { MdOutlineEdit } from "react-icons/md";
 const ExperienceCard = () => {
