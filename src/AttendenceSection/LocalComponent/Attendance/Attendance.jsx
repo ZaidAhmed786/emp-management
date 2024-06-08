@@ -1,12 +1,10 @@
 import React from "react";
-import PageDetails from "../../LocalComponent/Page Details/PageDetails";
 import EmployeDetails from "../../LocalComponent/Employe Details/EmployeDetails";
 import Performance from "../../LocalComponent/Employe Performance/Performance";
 
 function Attendance() {
   return (
-    <div className="p-3 bg-light vh-100">
-      <PageDetails />
+    <div className="bg-light px-3 pt-3 pb-4">
       <EmployeDetails />
       <Performance />
     </div>
