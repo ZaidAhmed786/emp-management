@@ -1,0 +1,32 @@
+.AddEmployeePopUp-pop-up-input,
+.AddEmployeePopUp-pop-up-input:focus-visible {
+    height: 2.75rem;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(227 227 227 / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    --tw-border-opacity: 1;
+    border-color: rgb(227 227 227 / var(--tw-border-opacity));
+    position: relative;
+}
+
+.AddEmployeePopUp-pop-up-input::placeholder {
+    color: gray;
+    font-size: medium;
+}
+
+.AddEmployeePopUp-icon {
+    position: absolute;
+    top: 32px;
+    right: 20px;
+    color: gray;
+
+}

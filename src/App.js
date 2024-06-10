@@ -1,6 +1,7 @@
 import ManageRoutes from "./pages/Routes";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import AddEmployeePopUp from "./AddEmployeePopUp/AddEmployeePopUp";
 // import Attendance from "";
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <ManageRoutes />
       {/* <DashboardProfile /> */}
       {/* <Attendance /> */}
+      <AddEmployeePopUp />
     </>
   );
 }

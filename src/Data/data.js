@@ -5,9 +5,12 @@ import { IoDiamondOutline } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
 import { FaRegCircleDot } from "react-icons/fa6";
 import { MdOutlineEdit } from "react-icons/md";
-import DropdownMenu from "../localComponents/DropdownMenu/DropdownMenu";
+import DropdownMenu from "../components/Profile/localComponents/DropdownMenu/DropdownMenu";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+
+import { FaCalendarAlt } from "react-icons/fa";
+import { type } from "@testing-library/user-event/dist/type";
 
 export const ProfileFristSectionData = [
   {
@@ -93,8 +96,8 @@ export const EmergencyContactCardData = [
     items: [
       { heading: "Name", text: "John Doe" },
       { heading: "Relationship", text: "Father" },
-      { heading: "Phone", text: "9876543210", color: "rgb(0 0 0)",},
-      { heading: "", texttwo: "1234567890" ,color: "rgb(0 0 0)", },
+      { heading: "Phone", text: "9876543210", color: "rgb(0 0 0)" },
+      { heading: "", texttwo: "1234567890", color: "rgb(0 0 0)" },
     ],
   },
   {
@@ -102,8 +105,8 @@ export const EmergencyContactCardData = [
     items: [
       { heading: "Name", text: "Karen Wills" },
       { heading: "Relationship", text: "Brother" },
-      { heading: "Phone", text: "9876543210", color: "rgb(0 0 0)",},
-      { heading: "", texttwo: "1234567890",color: "rgb(0 0 0)", },
+      { heading: "Phone", text: "9876543210", color: "rgb(0 0 0)" },
+      { heading: "", texttwo: "1234567890", color: "rgb(0 0 0)" },
     ],
   },
 ];
@@ -148,9 +151,8 @@ export const FamilyInformationsCardData = [
     text: "9876543210",
   },
   {
-    heading: "", 
-    text: <DropdownMenu />
-    
+    heading: "",
+    text: <DropdownMenu />,
   },
 ];
 export const EducationInformationsCardData = [
@@ -302,5 +304,79 @@ export const TodayAbsentCardData = [
     minitext: "Martin Lewis",
     spanone: "Leave Date",
     spantwo: "Approved",
+  },
+];
+export const AddEmployeePopUpData = [
+  {
+    heading: "First Name ",
+    span: "*",
+    type: "text",
+  },
+  {
+    heading: "Last Name",
+    type: "text",
+  },
+  {
+    heading: "Username ",
+    span: "*",
+    type: "text",
+  },
+  {
+    heading: "Email ",
+    span: "*",
+    type: "email",
+  },
+  {
+    heading: "Password",
+    type: "password",
+  },
+  {
+    heading: "Confirm Password",
+    type: "password",
+  },
+  {
+    heading: "Employee ID ",
+    span: "*",
+    type: "number",
+  },
+  {
+    heading: "Joining Date ",
+    span: "*",
+    placeholder: "Select Date",
+    icon: <FaCalendarAlt />,
+    type: "date",
+  },
+  {
+    heading: "Phone ",
+    type: "tel",
+  },
+  {
+    heading: "Company",
+    type: "selector",
+    options: [
+      "Global Technologies",
+      "Delta Infotech",
+      "International Software Inc",
+    ],
+  },
+  {
+    heading: "Department ",
+    type: "selector",
+    options: [
+      "Select Department",
+      "Web Development",
+      "IT Management",
+      "Marketing",
+    ],
+  },
+  {
+    heading: "Designation  ",
+    type: "selector",
+    options: [
+      "Select Designation",
+      "Web Designer",
+      "Web Developer",
+      "Android Developer",
+    ],
   },
 ];
