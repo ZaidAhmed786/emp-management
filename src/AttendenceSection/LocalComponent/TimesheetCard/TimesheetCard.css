@@ -108,9 +108,10 @@
 }
 
 .card-body {
-    gap: 35px;
+    /* gap: 35px; */
     flex-direction: column;
     display: flex;
+    justify-content: space-between;
 
 }
 

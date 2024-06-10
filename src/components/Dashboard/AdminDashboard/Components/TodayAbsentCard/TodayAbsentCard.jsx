@@ -2,10 +2,10 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./TodayAbsentCard.css";
-import { TodayAbsentCardData } from "../../Content";
-// import { TodayAbsentCardData } from "../../Content";
+import data  from "../../../../../data.json";
 
 function TodayAbsentCard() {
+  const { TodayAbsentCardData } = data;
   return (
     <Card className="TimesheetCard bg-white g-5">
       <Card.Body className="card-body">

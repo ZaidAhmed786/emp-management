@@ -1,10 +1,15 @@
 import React from "react";
 import avatar from "../../../images/avatar-02.jpg";
 import "./ProfileFristSection.css";
-import { ProfileFristSectionData } from "../../Context/index";
+import data  from "../../../../data.json";
 import classNames from 'classnames';
+import { MdOutlineEdit } from "react-icons/md";
 
 const ProfileFristSection = () => {
+  const { ProfileFristSectionData } = data;
+  const icons = [
+    <MdOutlineEdit />
+  ]
   return (
     <>
       <section className="ProfileFristSection px-3">
@@ -58,7 +63,7 @@ const ProfileFristSection = () => {
                         </p>
                         {item.icon ? (
                           <a href="#" className="icon">
-                            {item.icon}
+                          {icons[index]}
                           </a>
                         ) : null}
                       </div>

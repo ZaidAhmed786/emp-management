@@ -6,7 +6,7 @@ function Attendance() {
   return (
     <div className="bg-light px-3 pt-3 pb-4">
       <EmployeDetails />
-      <Performance />
+      {/* <Performance /> */}
     </div>
   );
 }

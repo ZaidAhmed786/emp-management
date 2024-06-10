@@ -2,9 +2,11 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./AdminDashboardTaskStatisticsCard.css";
-import { AdminDashboardTaskStatisticsCardData } from "../../Content";
+import data  from "../../../../../data.json";
+import { FaRegCircleDot } from "react-icons/fa6";
 
 function AdminDashboardTaskStatisticsCard() {
+  const { AdminDashboardTaskStatisticsCardData } = data;
   return (
     <Card className="TimesheetCard bg-white g-5">
       <Card.Body className="card-body">
@@ -36,7 +38,7 @@ function AdminDashboardTaskStatisticsCard() {
             className="icon-heading-mini-txt-rapo d-flex justify-content-between"
           >
             <div className="icon-heading d-flex align-items-center gap-2">
-              <i style={{ color: item.color }}>{item.icon}</i>
+              <i style={{ color: item.color }}><FaRegCircleDot /></i>
               <h6 className="text-dark">{item.heading}</h6>
             </div>
             <div className="mini-txt">

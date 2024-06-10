@@ -50,7 +50,7 @@ const Sidebar = () => {
               </a>
             </li>
             <li className="item">
-              <a href="#" className="nav_link">
+              <a href="/attendance-page" className="nav_link">
                 <span className="navlink_icon">
                   <BsPersonWorkspace />
                 </span>

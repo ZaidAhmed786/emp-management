@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./AdminDashboardStatisticsCard.css";
-import { AdminDashboardStatisticsCardData } from "../../Content";
+import data  from "../../../../../data.json";
+
 
 function getProgressColor(days) {
   const colorMap = {
@@ -16,6 +17,7 @@ function getProgressColor(days) {
 }
 
 function AdminDashboardStatisticsCard() {
+  const { AdminDashboardStatisticsCardData } = data;
   const initialProgress = AdminDashboardStatisticsCardData.map((item) =>
     parseFloat(item.Rating)
   );

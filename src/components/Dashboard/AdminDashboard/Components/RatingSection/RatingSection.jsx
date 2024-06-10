@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./RatingSection.css";
-import { RatingSectionData } from "../../Content";
+import data  from "../../../../../data.json";
 
 const RatingSection = () => {
   const [progress, setProgress] = useState(70);
@@ -25,6 +25,7 @@ const RatingSection = () => {
       { once: true }
     );
   };
+  const { RatingSectionData } = data;
 
   return (
     <section className="bg-white pb-5">

@@ -21,9 +21,9 @@
     content: '';
     position: absolute;
     left: -17px;
-    top: 31px;
+    top: 26px;
     transform: translateY(-50%);
-    height: 64px;
+    height: 51px;
     width: 2px;
     background-color: rgb(187 196 204 / var(--tw-text-opacity));
 }
