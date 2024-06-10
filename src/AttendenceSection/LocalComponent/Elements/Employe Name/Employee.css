@@ -1,0 +1,21 @@
+#EmployeeName::placeholder{
+    font-size: 12px;
+    color: #666666;
+    font-weight: 500;
+    font-family: "poppins";
+}
+
+#EmployeeName{
+    font-size: 12px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "poppins";
+}
+
+#EmployeeName{
+    border: none;
+}
+
+#EmployeeName:focus{
+    outline: none;
+}
