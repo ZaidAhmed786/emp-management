@@ -296,6 +296,79 @@
       "text": "Jan 2013 - Present (5 years 2 months)",
       "texttwo": ""
     }
+  ],
+  "AddEmployeePopUpData": [
+    {
+      "heading": "First Name",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Last Name",
+      "type": "text"
+    },
+    {
+      "heading": "Username",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Email",
+      "span": "*",
+      "type": "email"
+    },
+    {
+      "heading": "Password",
+      "type": "password"
+    },
+    {
+      "heading": "Confirm Password",
+      "type": "password"
+    },
+    {
+      "heading": "Employee ID",
+      "span": "*",
+      "type": "number"
+    },
+    {
+      "heading": "Joining Date",
+      "span": "*",
+      "placeholder": "Select Date",
+      "icon": "FaCalendarAlt",
+      "type": "date"
+    },
+    {
+      "heading": "Phone",
+      "type": "tel"
+    },
+    {
+      "heading": "Company",
+      "type": "selector",
+      "options": [
+        "Global Technologies",
+        "Delta Infotech",
+        "International Software Inc"
+      ]
+    },
+    {
+      "heading": "Department",
+      "type": "selector",
+      "options": [
+        "Select Department",
+        "Web Development",
+        "IT Management",
+        "Marketing"
+      ]
+    },
+    {
+      "heading": "Designation",
+      "type": "selector",
+      "options": [
+        "Select Designation",
+        "Web Designer",
+        "Web Developer",
+        "Android Developer"
+      ]
+    }
   ]
-  }
-  
+}

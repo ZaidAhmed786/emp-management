@@ -4,13 +4,15 @@ import "./AddEmployeePopUp.css";
 import { FaPlusCircle } from "react-icons/fa";
 import { FaCalendarAlt } from "react-icons/fa";
 import AddEmployeePopUpInputText from "../AddEmployeePopUpInputText/AddEmployeePopUpInputText";
+import data from "../data.json";
 
 const AddEmployeePopUp = () => {
+  const AddEmployeePopUpData = data.AddEmployeePopUpData;
   return (
     <>
       <button
         type="button"
-        className="btn btn-primary "
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
@@ -24,7 +26,7 @@ const AddEmployeePopUp = () => {
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
           <div className="modal-content">
             <div className="modal-header">
               <button
@@ -43,14 +45,20 @@ const AddEmployeePopUp = () => {
               <form>
                 <div className="modal-body-first-section p-4">
                   <div className="row">
-                    <AddEmployeePopUpInputText />
+                    {AddEmployeePopUpData.map((item, index) => (
+                      <AddEmployeePopUpInputText
+                        key={index}
+                        data={item}
+                        index={index}
+                      />
+                    ))}
                   </div>
                 </div>
               </form>
             </div>
             <div className="modal-footer">
-              <div className=" mt-5 d-flex justify-content-center">
-                <button type="button" class="btn submit-btn text-white">
+              <div className="mt-5 d-flex justify-content-center">
+                <button type="button" className="btn submit-btn text-white">
                   Submit
                 </button>
               </div>
