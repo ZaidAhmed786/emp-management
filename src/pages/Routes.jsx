@@ -6,7 +6,7 @@ import Login from "./auth/login/Login";
 import Layout from "./layout/Layout";
 import Profile from "../components/Profile/DashboardProfile/DashboardProfile";
 import AdminDashboard from "../components/Dashboard/AdminDashboard/Components/AdminInfoSection/AdminInfoSection"
-import AttendancePage from '../AttendenceSection/AttendancePage/AttendancePage.jsx'
+import AttendancePage from "../components/AttendenceSection/AttendancePage/AttendancePage";
 const ManageRoutes = () => {
   return (
     <>

@@ -1,10 +1,7 @@
 import React from "react";
-import { RiDeleteBin6Line } from "react-icons/ri";
 import "./AddEmployeePopUp.css";
-import { FaPlusCircle } from "react-icons/fa";
-import { FaCalendarAlt } from "react-icons/fa";
 import AddEmployeePopUpInputText from "../AddEmployeePopUpInputText/AddEmployeePopUpInputText";
-import data from "../data.json";
+import data from "../../data.json";
 
 const AddEmployeePopUp = () => {
   const AddEmployeePopUpData = data.AddEmployeePopUpData;

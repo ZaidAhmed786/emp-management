@@ -1,7 +1,7 @@
 import ManageRoutes from "./pages/Routes";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import AddEmployeePopUp from "./AddEmployeePopUp/AddEmployeePopUp";
+import AddEmployeePopUp from "./components/AddEmployeePopUp/AddEmployeePopUp";
 // import Attendance from "";
 function App() {
   return (

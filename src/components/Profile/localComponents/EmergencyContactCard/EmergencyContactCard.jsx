@@ -1,9 +1,10 @@
 import React from "react";
 import "../ProfileFristSection/ProfileFristSection.css";
-import { EmergencyContactCardData } from "../../Context/index";
+import data from "../../../../data.json";
 import { MdOutlineEdit } from "react-icons/md";
 
 const EmergencyContactCard = () => {
+  const EmergencyContactCardData = data.EmergencyContactCardData;
   return (
     <div className="mt-3 Card-col bg-white p-4">
       <div className="PersonalInformationCard-heading mb-3 d-flex align-items-center">
@@ -16,7 +17,7 @@ const EmergencyContactCard = () => {
         <div key={sectionIndex}>
           <div className="mb-4">
             <h6 className="text-dark">{section.section}</h6>
-            {section.items.map((item, itemIndex) => (
+            {section.items.map((data, itemIndex) => (
               <div
                 key={itemIndex}
                 className="info-txt-rapo d-flex align-items-center mb-2"
@@ -29,12 +30,14 @@ const EmergencyContactCard = () => {
                     width: "50%",
                   }}
                 >
-                  <h6 className="text-dark">{item.heading}</h6>
+                  <h6 className="text-dark">{data.heading}</h6>
                 </div>
                 <div className="d-grid text-main-rap align-items-center">
                   <div className="image-txt-rapo d-flex">
-                    <p style={{ color: item.color }}>  {item.text}</p>
-                    <p  style={{ lineHeight: "0px", color: item.color }} >{item.texttwo}</p>
+                    <p style={{ color: data.color }}> {data.text}</p>
+                    <p style={{ lineHeight: "0px", color: data.color }}>
+                      {data.texttwo}
+                    </p>
                   </div>
                 </div>
               </div>

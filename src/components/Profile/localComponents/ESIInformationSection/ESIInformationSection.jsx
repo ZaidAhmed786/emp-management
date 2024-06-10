@@ -4,7 +4,7 @@ const ESIInformationSection = () => {
   return (
     <>
       <div className="heading mb-3">
-        <h3>ESI Information</h3>
+        <h3 className="text-dark">ESI Information</h3>
       </div>
       <div className="row">
         <div className="col-lg-4 ">
@@ -15,9 +15,15 @@ const ESIInformationSection = () => {
               className="form-select custom-select bg-white"
               id="inputGroupSelect02"
             >
-              <option className="text-muted"  selected>Select ESI contribution</option>
-              <option className="text-muted" value="1">Yes</option>
-              <option className="text-muted"  value="2">No</option>
+              <option className="text-muted" selected>
+                Select ESI contribution
+              </option>
+              <option className="text-muted" value="1">
+                Yes
+              </option>
+              <option className="text-muted" value="2">
+                No
+              </option>
             </select>
           </div>
         </div>
@@ -31,9 +37,15 @@ const ESIInformationSection = () => {
               className="form-select custom-select bg-white"
               id="inputGroupSelect02"
             >
-              <option className="text-muted" selected>Select ESI contribution</option>
-              <option className="text-muted"  value="1">Yes</option>
-              <option className="text-muted" value="2">No</option>
+              <option className="text-muted" selected>
+                Select ESI contribution
+              </option>
+              <option className="text-muted" value="1">
+                Yes
+              </option>
+              <option className="text-muted" value="2">
+                No
+              </option>
             </select>
           </div>
         </div>
@@ -47,9 +59,15 @@ const ESIInformationSection = () => {
               className="form-select custom-select bg-white"
               id="inputGroupSelect02"
             >
-              <option className="text-muted"  selected>Select ESI contribution</option>
-              <option className="text-muted" value="1">Yes</option>
-              <option className="text-muted" value="2">No</option>
+              <option className="text-muted" selected>
+                Select ESI contribution
+              </option>
+              <option className="text-muted" value="1">
+                Yes
+              </option>
+              <option className="text-muted" value="2">
+                No
+              </option>
             </select>
           </div>
         </div>
@@ -63,18 +81,42 @@ const ESIInformationSection = () => {
               className="form-select custom-select bg-white"
               id="inputGroupSelect02"
             >
-              <option className="text-muted"  selected>Select additional rate</option>
-              <option className="text-muted" value="1">0%</option>
-              <option className="text-muted" value="2">1%</option>
-              <option className="text-muted" value="2">2%</option>
-              <option className="text-muted" value="2">3%</option>
-              <option className="text-muted" value="2">4%</option>
-              <option className="text-muted" value="2">5%</option>
-              <option className="text-muted" value="2">6%</option>
-              <option className="text-muted" value="2">7%</option>
-              <option className="text-muted" value="2">8%</option>
-              <option className="text-muted" value="2">9%</option>
-              <option className="text-muted" value="2">10%</option>
+              <option className="text-muted" selected>
+                Select additional rate
+              </option>
+              <option className="text-muted" value="1">
+                0%
+              </option>
+              <option className="text-muted" value="2">
+                1%
+              </option>
+              <option className="text-muted" value="2">
+                2%
+              </option>
+              <option className="text-muted" value="2">
+                3%
+              </option>
+              <option className="text-muted" value="2">
+                4%
+              </option>
+              <option className="text-muted" value="2">
+                5%
+              </option>
+              <option className="text-muted" value="2">
+                6%
+              </option>
+              <option className="text-muted" value="2">
+                7%
+              </option>
+              <option className="text-muted" value="2">
+                8%
+              </option>
+              <option className="text-muted" value="2">
+                9%
+              </option>
+              <option className="text-muted" value="2">
+                10%
+              </option>
             </select>
           </div>
         </div>
@@ -82,7 +124,11 @@ const ESIInformationSection = () => {
           <h6 className="label text-dark">Total rate</h6>
 
           <div className="input-group ">
-            <input type="text" class="form-control bg-white" placeholder="11%"></input>
+            <input
+              type="text"
+              class="form-control bg-white"
+              placeholder="11%"
+            ></input>
           </div>
         </div>
       </div>

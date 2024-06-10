@@ -1,8 +1,9 @@
 import React from "react";
 import "../ProfileFristSection/ProfileFristSection.css";
-import { PersonalInformationCardData } from "../../Context/index";
+import data from "../../../../data.json";
 import { MdOutlineEdit } from "react-icons/md";
 const PersonalInformationCard = () => {
+  const PersonalInformationCardData = data.PersonalInformationCardData;
   return (
     <div className="mt-3 Card-col bg-white p-4">
       <div className="PersonalInformationCard-heading mb-3 d-flex align-items-center">
@@ -11,7 +12,7 @@ const PersonalInformationCard = () => {
           <MdOutlineEdit />
         </a>
       </div>
-      {PersonalInformationCardData.map((item, index) => (
+      {PersonalInformationCardData.map((data, index) => (
         <div key={index} className="info-txt-rapo d-flex align-items-center">
           <div
             style={{
@@ -21,12 +22,12 @@ const PersonalInformationCard = () => {
               width: "50%",
             }}
           >
-            <h6 className="text-dark">{item.heading}</h6>
+            <h6 className="text-dark">{data.heading}</h6>
           </div>
           <div className="d-grid text-main-rap align-items-center">
             <div className="image-txt-rapo d-flex">
-              {item.textlink ? <a href="#">{item.textlink}</a> : null}
-              {item.text ? <p>{item.text}</p> : null}
+              {data.textlink ? <a href="#">{data.textlink}</a> : null}
+              {data.text ? <p>{data.text}</p> : null}
             </div>
           </div>
         </div>

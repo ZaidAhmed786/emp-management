@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../TimesheetCard/TimesheetCard.css";
 import "./StatisticsCard.css";
-import { StatisticsCardData } from "../../../Constants/index";
+import data from "../../../../data.json";
 
 function getProgressColor(days) {
   const colorMap = {
@@ -17,8 +17,9 @@ function getProgressColor(days) {
 }
 
 function StatisticsCard() {
-  const initialProgress = StatisticsCardData.map((item) =>
-    parseFloat(item.Rating)
+  const StatisticsCardData = data.StatisticsCardData;
+  const initialProgress = StatisticsCardData.map((data) =>
+    parseFloat(data.Rating)
   );
   const [progress, setProgress] = useState(initialProgress);
 
@@ -36,21 +37,21 @@ function StatisticsCard() {
     <Card className="TimesheetCard g-5 bg-white  border border-gary border-1">
       <Card.Body className="card-body">
         <h3 className="card-title text-dark">Statistics</h3>
-        {StatisticsCardData.map((item, index) => {
-          const progressColorClass = getProgressColor(item.Days);
+        {StatisticsCardData.map((data, index) => {
+          const progressColorClass = getProgressColor(data.Days);
           const progressValue = progress[index];
           return (
             <div
-              key={item.Days}
+              key={data.Days}
               className="text-time-box-rapo border border-gray border-2"
             >
               <div className="StatisticsCard-heading-txt-rapo d-flex justify-content-between">
                 <div className="StatisticsCard-heading">
-                  <h5 className="text-dark">{item.Days}</h5>
+                  <h5 className="text-dark">{data.Days}</h5>
                 </div>
                 <div className="StatisticsCard-txt d-flex">
-                  <h5 className="text-dark">{item.Rating}</h5>
-                  <h5 className="text-dark">{item.Timing}</h5>
+                  <h5 className="text-dark">{data.Rating}</h5>
+                  <h5 className="text-dark">{data.Timing}</h5>
                 </div>
               </div>
               <div
