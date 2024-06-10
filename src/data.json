@@ -1,25 +1,21 @@
 {
     "AdminInfoSectionData": [
       {
-        "icon": "FaCubes",
         "className": "icon-cube",
         "heading": "112",
         "text": "Projects"
       },
       {
-        "icon": "FaDollarSign",
         "className": "icon-cube",
         "heading": "44",
         "text": "Clients"
       },
       {
-        "icon": "IoDiamondOutline",
         "className": "icon-cube",
         "heading": "37",
         "text": "Tasks"
       },
       {
-        "icon": "FaUser",
         "className": "icon-cube",
         "heading": "218",
         "text": "Employees"
@@ -129,7 +125,7 @@
 
 
 
-    
+
     "ProfileFristSectionData": [
     {
       "heading": "Phone:",
