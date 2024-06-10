@@ -34,7 +34,7 @@ const EmergencyContactCard = () => {
                 <div className="d-grid text-main-rap align-items-center">
                   <div className="image-txt-rapo d-flex">
                     <p style={{ color: item.color }}>  {item.text}</p>
-                    <p  style={{ lineHeight: "0px" }} style={{ color: item.color }}>{item.texttwo}</p>
+                    <p  style={{ lineHeight: "0px", color: item.color }} >{item.texttwo}</p>
                   </div>
                 </div>
               </div>

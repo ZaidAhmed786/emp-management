@@ -31,14 +31,6 @@ const Sidebar = () => {
           <ul className="menu_items">
             <div className="menu_title menu_dahsboard"></div>
             <li className="item">
-              <a href="/" className="nav_link">
-                <span className="navlink_icon">
-                  <AiOutlineHome />
-                </span>
-                <span className="navlink">Home</span>
-              </a>
-            </li>
-            <li className="item">
               <Collapsible title = "Dashboard" icon = {<FiGrid/>}>
                 <ul className="submenu_items">
                   <a href="admin-dashboard" className="nav_link sublink">Admin Dashboard</a>
@@ -50,7 +42,7 @@ const Sidebar = () => {
           <ul className="menu_items">
             <div className="menu_title menu_editor"></div>
             <li className="item">
-              <a href="/tasks" className="nav_link">
+              <a href="/" className="nav_link">
                 <span className="navlink_icon">
                   <GoTasklist />
                 </span>

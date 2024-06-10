@@ -9,7 +9,7 @@ const AdminDashboardCards = () => {
     <>
       <section className="bg-light">
         <Container>
-          <Row>
+          <Row style={{padding: '20px 0'}}>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <AdminDashboardStatisticsCard />
             </div>
