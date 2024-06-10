@@ -1,3 +1,4 @@
+import { FaHeading } from "react-icons/fa";
 import Employee1 from "./Images/employee-1.jpg";
 import Employee2 from "./Images/employee-2.jpg";
 import Employee3 from "./Images/employee-3.jpg";
@@ -7,7 +8,6 @@ import Employee6 from "./Images/employee-6.jpg";
 import Employee7 from "./Images/employee-7.jpg";
 import Employee8 from "./Images/employee-8.jpg";
 import Employee9 from "./Images/employee-9.jpg";
-
 export const employeeData = [
   {
     name: "John Doe",
