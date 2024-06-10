@@ -1,13 +1,15 @@
 import React from "react";
 import Attendance from "../LocalComponent/Attendance/Attendance";
 import Cards from "../LocalComponent/AttendanceCards/Cards/Cards";
-import AddEmployeePopUp from "../../AddEmployeePopUp/AddEmployeePopUp";
+import PageDetails from "../LocalComponent/Page Details/PageDetails";
 const AttendancePage = () => {
   return (
     <>
-      <Cards />
-      <Attendance />
-      <AddEmployeePopUp />
+      <div>
+        <PageDetails />
+        <Cards />
+        <Attendance />
+      </div>
     </>
   );
 };

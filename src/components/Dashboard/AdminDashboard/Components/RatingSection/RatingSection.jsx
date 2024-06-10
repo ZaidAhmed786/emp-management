@@ -28,7 +28,7 @@ const RatingSection = () => {
 
   return (
     <section className="bg-white pb-5">
-      <div className="container">
+      <div className="container" style={{paddingTop: '20px'}}>
         <div className="row">
           {RatingSectionData.map((item, index) => (
             <div key={index} className="col-lg-3 col-md-6 col-sm-12 ">

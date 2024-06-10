@@ -1,9 +1,8 @@
 import React from "react";
-import { NavLink } from "react-bootstrap";
 
 function PageDetails() {
   return (
-    <div>
+    <div className="px-3 pt-4 bg-light">
       <div>
         <div>
           <p
@@ -17,13 +16,17 @@ function PageDetails() {
           className="d-flex justify-content-between"
           style={{ width: "12.5rem" }}
         >
-          <NavLink
-            to=""
+          <a
+            href="/"
             className="fs-6 fw-normal"
-            style={{ fontFamily: "poppins", color: "#333333" }}
+            style={{
+              textDecoration: "none",
+              fontFamily: "poppins",
+              color: "#333333",
+            }}
           >
             Dashboard /
-          </NavLink>
+          </a>
           <p
             className="fs-6 fw-normal"
             style={{ fontFamily: "poppins", color: "#6c757d" }}

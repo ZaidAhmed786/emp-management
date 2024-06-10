@@ -1,6 +1,6 @@
 import React from "react";
 import "../InfoBankStatutory/InfoBankStatutory.css";
-import { RiArrowDropDownLine } from "react-icons/ri";
+// import { RiArrowDropDownLine } from "react-icons/ri";
 import PfInfoSection from "../PfInfoSection/PfInfoSection";
 import ESIInformationSection from "../ESIInformationSection/ESIInformationSection";
 

@@ -42,7 +42,7 @@ const TopNavbar = () => {
             <Nav className="profile">
               <img src={Profile} alt="" className="bg-light" />
             </Nav>
-            <NavDropdown title=" John Doe" id="navbarScrollingDropdown">
+            <NavDropdown title=" John Doe" id="navbarScrollingDropdown" style={{background: 'transparent', color: 'black'}} >
               <NavDropdown.Item href="profile">profile</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Another action

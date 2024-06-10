@@ -7,15 +7,15 @@ import TodayActivity from "../TodayActivity/TodayActivity";
 const Cards = () => {
   return (
     <>
-      <Container>
+      <Container className="bg-light">
         <Row>
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12 bg-light mt-3">
             <TimesheetCard />
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-5">
+          <div className="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-5 bg-light mt-3">
             <StatisticsCard />
           </div>
-          <div className="col-lg-4 col-md-12 col-sm-12 mt-lg-0 mt-md-5 mt-sm-5">
+          <div className="col-lg-4 col-md-12 col-sm-12 mt-lg-0 mt-md-5 mt-sm-5 bg-light mt-3">
             <TodayActivity />
           </div>
         </Row>

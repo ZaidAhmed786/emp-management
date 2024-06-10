@@ -9,7 +9,7 @@ const AdminInfoSection = () => {
     <>
       <section className="bg-light AdminInfoSection">
         <div className="container">
-          <div className="row">
+          <div className="row" style={{paddingTop: '20px'}}>
             {AdminInfoSectionData.map((item) => (
               <div key={item} className="col-lg-3 col-md-6 col-sm-12 ">
                 <div className="admininfo-icon-txt-main-rapo bg-white p-4 d-lg-flex d-md-grid d-sm-grid justify-content-lg-between justify-content-md-center justify-content-sm-center gap-md-3 mb-md-5 gap-sm-3 mb-sm-5 gap-lg-0 mb-lg-0 align-items-lg-center align-items-md-center align-items-sm-center">
