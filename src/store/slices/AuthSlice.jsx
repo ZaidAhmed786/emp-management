@@ -1,10 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
+import userData from "../../data.json"
 const initialState = {
     userInfo: {}, // for user object
     userToken: null,
     isLoggedIn: false, // for monitoring the registration process.
   }
-  
+  const { Roles } = userData;
+  console.log('Roles', Roles[0].role);
 const authSlice = createSlice({
     name: 'auth',
     initialState,
@@ -12,7 +14,8 @@ const authSlice = createSlice({
         login(state, action) {
             let user = {
                 id: action.payload.id,
-                email: action.payload.email
+                email: action.payload.email,
+                role: Roles[0].role,
             }
             state.userInfo = user;
             state.isLoggedIn = true;
@@ -26,3 +29,4 @@ const authSlice = createSlice({
 });
 
 export { authSlice }
+export const selectUserRole = (state) => state.auth.userInfo.role;

@@ -7,7 +7,14 @@ import Layout from "./layout/Layout";
 import Profile from "../components/Profile/DashboardProfile/DashboardProfile";
 import AdminDashboard from "../components/Dashboard/AdminDashboard/Components/AdminInfoSection/AdminInfoSection"
 import AttendancePage from "../components/AttendenceSection/AttendancePage/AttendancePage";
+import AttendancePage from '../AttendenceSection/AttendancePage/AttendancePage.jsx'
+import { useSelector } from "react-redux";
+// import { selectUserRole } from "../store/slices/AuthSlice.jsx";
 const ManageRoutes = () => {
+  // const userRole = useSelector(selectUserRole);
+  const selectUserRole = (state) => state.auth.userInfo.role;
+    const userRole = useSelector((state) =>  state.auth.userInfo.role);
+  // console.log('role from routes file', userRole);
   return (
     <>
       <Routes>

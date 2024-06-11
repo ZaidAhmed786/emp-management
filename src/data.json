@@ -363,6 +363,17 @@
       ]
     }
   ],
+  "Roles": [
+    {
+      "role": "Admin"
+    },
+    {
+      "role": "Manager"
+    },
+    {
+      "role": "Employee"
+    }
+  ],
   "StatisticsCardData": [
     {
       "Days": "Today",
