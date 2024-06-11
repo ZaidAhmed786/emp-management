@@ -1,0 +1,74 @@
+#main-div {
+    background-color: white;
+}
+
+#head-text {
+    font-size: 15px;
+    font-family: "Poppins";
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(19, 18, 18);
+    color: #bbc4cc;
+    white-space: nowrap;
+}
+
+#table{
+    width: 703px;
+}
+
+#body-text {
+    font-size: 15px;
+    font-family: "Poppins";
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(31, 31, 31);
+    color: #bbc4cc;
+}
+
+#body-rows {
+    border: 1px solid rgb(31, 31, 31);
+}
+
+#row-1 {
+    border: 1px solid rgb(19, 18, 18);
+}
+
+#body-input {
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+}
+
+@media screen and (min-width:640px) and (max-width: 992px) {
+    #table {
+        width: 410px;
+        overflow-x: auto;
+        display: block;
+    }
+}
+
+table {
+    width: auto;
+}
+
+th, td {
+    padding: 0.5rem;
+    white-space: nowrap;
+}
+
+
+@media screen and (max-width: 639px) {
+    #table {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+}
+
+table {
+    width: auto; 
+}
+
+th, td {
+    padding: 0.5rem;
+    white-space: nowrap;
+}
