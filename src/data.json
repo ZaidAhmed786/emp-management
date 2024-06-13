@@ -425,5 +425,70 @@
       "Text": "Punch Out at",
       "Time": "7.30 PM."
     }
+  ],
+  "UsersTable": [
+    {
+      "username": "Barry Cuda ",
+      "userprofession": "Global Technologies",
+      "useremail": "barrycuda@example.com",
+      "usercompany": "Global Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Client",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-19.jpg"
+    },
+    {
+      "username": "Daniel Porter ",
+      "userprofession": "Admin",
+      "useremail": "danielporter@example.com",
+      "usercompany": "Dreamguy's Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Admin",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-21.jpg"
+    },
+    {
+      "username": "John Doe ",
+      "userprofession": "Web Designer",
+      "useremail": "johndoe@example.com",
+      "usercompany": "Dreamguy's Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Employee",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-02.jpg"
+    },
+    {
+      "username": "John Smith ",
+      "userprofession": "Android Developer",
+      "useremail": "johnsmith@example.com",
+      "usercompany": "Dreamguy's Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Employee",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-10.jpg"
+    },
+    {
+      "username": "Mike Litorus ",
+      "userprofession": "IOS Developer",
+      "useremail": "mikelitorus@example.com",
+      "usercompany": "Dreamguy's Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Employee",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-05.jpg"
+    },
+    {
+      "username": "Richard Miles ",
+      "userprofession": "Admin",
+      "useremail": "richardmiles@example.com",
+      "usercompany": "Dreamguy's Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Employee",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-09.jpg"
+    },
+    {
+      "username": "Wilmer Deluna  ",
+      "userprofession": "Admin",
+      "useremail": "wilmerdeluna@example.com",
+      "usercompany": "Dreamguy's Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Employee",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-11.jpg"
+    }
   ]
 }
