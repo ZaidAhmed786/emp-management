@@ -75,11 +75,7 @@ const ManageRoutes = () => {
           />
           <Route
             path="/user-page"
-            element={
-              <ProtectedRoute>
-                <User />
-              </ProtectedRoute>
-            }
+            element={<ProtectedRoute>{/* <User /> */}</ProtectedRoute>}
           />
         </Route>
         <Route path="/login" element={<Login />} />

@@ -27,7 +27,12 @@ const EducationInformationsCard = () => {
           <p className="text-afterline-rapo-second-p ">{item.texttwo}</p>
         </div>
       ))}
-      <PopUp ref={modalButtonRef} />
+      <PopUp ref={modalButtonRef}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+        excepturi eum rerum possimus aperiam tempora quia rem mollitia at
+        impedit, facilis beatae eius? Quaerat ex nemo delectus cum amet
+        praesentium.<></>
+      </PopUp>
     </div>
   );
 };
