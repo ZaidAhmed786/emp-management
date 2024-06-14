@@ -65,11 +65,19 @@ const ManageRoutes = () => {
               </ProtectedRoute>
             }
           />
-           <Route
+          <Route
             path="/attendance-employee"
             element={
               <ProtectedRoute>
                 <AttendancePage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/user-page"
+            element={
+              <ProtectedRoute>
+                <User />
               </ProtectedRoute>
             }
           />

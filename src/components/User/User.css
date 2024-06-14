@@ -1,0 +1,29 @@
+.user-heading{
+    font-size: 26px;
+    font-family: "poppins";
+    color: #333333;
+}
+
+.anchor-link{
+    font-size: 16px;
+    font-family: "poppins";
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.anchor-link-2{
+    font-size: 12px;
+    font-family: "poppins";
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.user-text{
+    font-size: 16px;
+    font-family: "poppins";
+    color: gray;
+    text-decoration: none;
+    font-weight: 500;
+}

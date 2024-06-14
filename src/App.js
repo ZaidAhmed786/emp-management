@@ -1,6 +1,6 @@
 import ManageRoutes from "./pages/Routes";
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import UsersTable from "./components/UsersTable/UsersTable";
 import Employee from "./components/Dashboard/Employee/Employee";
 import DashboardProfile from "./components/Profile/DashboardProfile/DashboardProfile";

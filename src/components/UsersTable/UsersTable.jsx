@@ -30,9 +30,9 @@ const UsersTable = () => {
 
   return (
     <section className="bg-dark">
-      <div className="container overflow-auto">
+      <div className="container-fluid overflow-auto">
         <div className="row">
-          <div className="col">
+          <div className="col w-100">
             <table className="table table-dark table-striped">
               <thead className="bg-black">
                 <tr>
