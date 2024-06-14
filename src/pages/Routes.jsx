@@ -4,7 +4,7 @@ import ProtectedRoute from "./../hooks/utils/ProtectedRoute";
 import Home from "./home/Home";
 import Login from "./auth/login/Login";
 import Layout from "./layout/Layout";
-import Profile from "../components/profile/DashboardProfile/DashboardProfile";
+import Profile from "../components/Profile/DashboardProfile/DashboardProfile";
 import AdminDashboard from "../components/Dashboard/AdminDashboard/Components/AdminInfoSection/AdminInfoSection";
 import AttendancePage from "../components/AttendenceSection/AttendancePage/AttendancePage";
 import AttendanceAdmin from "../components/AttendenceSection/AttendancePage/AttendanceAdmin";
