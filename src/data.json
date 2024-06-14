@@ -421,6 +421,66 @@
     }
   ],
 
+  "ExpPopUpData": [
+    {
+      "heading": "",
+      "span": "",
+      "type": "text",
+      "placeholder": "Company Name"
+    },
+    {
+      "heading": "",
+      "span": "",
+      "type": "text",
+      "placeholder": "Location"
+    },
+    {
+      "heading": "",
+      "span": "",
+      "type": "text",
+      "placeholder": "Job Position"
+    },
+    {
+      "heading": "",
+      "span": "",
+      "type": "date",
+      "placeholder": ""
+    },
+    {
+      "heading": "",
+      "span": "",
+      "type": "date",
+      "placeholder": ""
+    }
+  ],
+
+  "FiPopUpData": [
+    {
+      "heading": "Name",
+      "span": "*",
+      "type": "text",
+      "placeholder": ""
+    },
+    {
+      "heading": "Relationship",
+      "span": "*",
+      "type": "text",
+      "placeholder": ""
+    },
+    {
+      "heading": "Date of Birth",
+      "span": "*",
+      "type": "date",
+      "placeholder": ""
+    },
+    {
+      "heading": "Phone",
+      "span": "*",
+      "type": "tel",
+      "placeholder": ""
+    }
+  ],
+
   "Roles": [
     {
       "role": "Admin"

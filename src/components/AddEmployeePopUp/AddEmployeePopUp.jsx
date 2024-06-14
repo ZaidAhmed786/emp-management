@@ -52,7 +52,7 @@ const AddEmployeePopUp = () => {
                     ))}
                   </div>
                 </div>
-                {/* <UserRoleTable /> */}
+                <UserRoleTable />
               </form>
             </div>
             <div className="modal-footer">

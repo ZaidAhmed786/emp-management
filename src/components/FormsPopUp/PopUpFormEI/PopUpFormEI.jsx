@@ -24,9 +24,7 @@ const PopUpFormEI = () => {
                 <h3>Education Informations</h3>
               </div>
               <div className="eduction-info-icon">
-                <a href="#">
-                  <RiDeleteBin6Line />
-                </a>
+                <a href="#">{/* <RiDeleteBin6Line /> */}</a>
               </div>
             </div>
 
@@ -61,9 +59,7 @@ const PopUpFormEI = () => {
                 placeholder="Select Date"
               />
               <div className="eduction-info-calender-icon">
-                <a href="#">
-                  <FaCalendarAlt />
-                </a>
+                <a href="#">{/* <FaCalendarAlt /> */}</a>
               </div>
             </div>
             <div className="popup-inputs-label-rapo mt-2">
@@ -74,9 +70,7 @@ const PopUpFormEI = () => {
                 placeholder="Select Date"
               />
               <div className="eduction-info-calender-icon">
-                <a href="#">
-                  <FaCalendarAlt />
-                </a>
+                <a href="#">{/* <FaCalendarAlt /> */}</a>
               </div>
             </div>
             <div className="popup-inputs-label-rapo mt-2">
@@ -108,9 +102,7 @@ const PopUpFormEI = () => {
                 <h3>Education Informations</h3>
               </div>
               <div className="eduction-info-icon">
-                <a href="#">
-                  <RiDeleteBin6Line />
-                </a>
+                <a href="#">{/* <RiDeleteBin6Line /> */}</a>
               </div>
             </div>
 
@@ -145,9 +137,7 @@ const PopUpFormEI = () => {
                 placeholder="Select Date"
               />
               <div className="eduction-info-calender-icon">
-                <a href="#">
-                  <FaCalendarAlt />
-                </a>
+                <a href="#">{/* <FaCalendarAlt /> */}</a>
               </div>
             </div>
             <div className="popup-inputs-label-rapo mt-2">
@@ -158,9 +148,7 @@ const PopUpFormEI = () => {
                 placeholder="Select Date"
               />
               <div className="eduction-info-calender-icon">
-                <a href="#">
-                  <FaCalendarAlt />
-                </a>
+                <a href="#">{/* <FaCalendarAlt /> */}</a>
               </div>
             </div>
             <div className="popup-inputs-label-rapo mt-2">
@@ -187,9 +175,7 @@ const PopUpFormEI = () => {
             </div>
             <div className="popup-inputs-label-rapo mt-2">
               <div className="txt-icon-rapo d-flex ms-3 gap-1 ">
-                <a href="#">
-                  <FaPlusCircle />
-                </a>
+                <a href="#">{/* <FaPlusCircle /> */}</a>
                 <p> Add more</p>
               </div>
             </div>

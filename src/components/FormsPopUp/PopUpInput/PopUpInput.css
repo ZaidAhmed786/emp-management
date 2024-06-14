@@ -1,0 +1,8 @@
+.AddEmployeePopUp-input-dropdown-toggle,
+.AddEmployeePopUp-input-dropdown-toggle:focus-visible,
+.AddEmployeePopUp-input-dropdown-toggle:hover,
+.AddEmployeePopUp-input-dropdown-toggle:active {
+    background-color: transparent !important;
+    border-color: rgba(128, 128, 128, 0.158) !important;
+    color: black !important;
+}
