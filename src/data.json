@@ -490,5 +490,95 @@
       "userrole": "Employee",
       "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-11.jpg"
     }
+  ],
+  "EmployeeHistory": [
+    {
+      "heading": "TODAY",
+      "text": "Richard Miles is off sick today",
+      "imageone": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-09.jpg",
+      "imagetwo": ""
+    },
+    {
+      "heading": "",
+      "text": "You are away today",
+      "imageone": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-02.jpg",
+      "imagetwo": ""
+    },
+    {
+      "heading": "",
+      "text": "You are working from home today",
+      "imageone": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-02.jpg",
+      "imagetwo": ""
+    },
+    {
+      "heading": "TOMORROW",
+      "text": "2 people will be away tomorrow",
+      "imageone": " https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-08.jpg",
+      "imagetwo": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-04.jpg"
+    },
+    {
+      "heading": "NEXT SEVEN DAYS",
+      "text": "2 people are going to be away",
+      "imageone": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-07.jpg",
+      "imagetwo": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-05.jpg"
+    },
+    {
+      "heading": "",
+      "text": "Your first day is going to be on Thursday",
+      "imageone": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-02.jpg",
+      "imagetwo": ""
+    },
+    {
+      "heading": "",
+      "text": "It's Spring Bank Holiday on Monday",
+      "imageone": "",
+      "imagetwo": ""
+    }
+  ],
+  "EmployeeHistorySecond": [
+    {
+      "heading": "PROJECTS",
+      "totaltasknumber": "71",
+      "totaltasktext": "TOTAL TASKS",
+      "pendingtasknumber": "14",
+      "pendingtasktext": "PENDING TASKS",
+      "totalprojectnumber": "2",
+      "totalprojecttext": "TOTAL PROJECTS",
+      "buttontext": "",
+      "upcomingtext": ""
+    },
+    {
+      "heading": "YOUR LEAVE",
+      "totaltasknumber": "4.5",
+      "totaltasktext": "LEAVE TAKEN",
+      "pendingtasknumber": "12",
+      "pendingtasktext": " REMAINING",
+      "totalprojectnumber": "",
+      "totalprojecttext": "",
+      "buttontext": "APPLY LEAVE",
+      "upcomingtext": ""
+    },
+    {
+      "heading": "YOUR TIME OFF ALLOWANCE",
+      "totaltasknumber": "5.0 Hours",
+      "totaltasktext": "APPROVED",
+      "pendingtasknumber": "15 Hours",
+      "pendingtasktext": " REMAINING",
+      "totalprojectnumber": "",
+      "totalprojecttext": "",
+      "buttontext": "Apply Time Off",
+      "upcomingtext": ""
+    },
+    {
+      "heading": "UPCOMING HOLIDAY",
+      "totaltasknumber": "",
+      "totaltasktext": "",
+      "pendingtasknumber": "",
+      "pendingtasktext": "",
+      "totalprojectnumber": "",
+      "totalprojecttext": "",
+      "buttontext": "",
+      "upcomingtext": "Fri 15 May 2022 - Good Friday"
+    }
   ]
 }

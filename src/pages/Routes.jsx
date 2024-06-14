@@ -7,10 +7,6 @@ import Layout from "./layout/Layout";
 import Profile from "../components/Profile/DashboardProfile/DashboardProfile";
 import AdminDashboard from "../components/Dashboard/AdminDashboard/Components/AdminInfoSection/AdminInfoSection";
 import AttendancePage from "../components/AttendenceSection/AttendancePage/AttendancePage";
-<<<<<<< Updated upstream
-=======
-// import AttendancePage from '../AttendenceSection/AttendancePage/AttendancePage.jsx'
->>>>>>> Stashed changes
 import { useSelector } from "react-redux";
 // import { selectUserRole } from "../store/slices/AuthSlice.jsx";
 const ManageRoutes = () => {
