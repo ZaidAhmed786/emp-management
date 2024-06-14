@@ -289,6 +289,165 @@
       "texttwo": ""
     }
   ],
+  "PopUpFirstForm": [
+    {
+      "heading": "First Name",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "Last Name",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "Birth Date",
+      "icon": "FaCalendarAlt",
+      "type": "date"
+    },
+    {
+      "heading": "Gender",
+      "type": "selector",
+      "options": ["-", "Male", "Female"]
+    },
+    {
+      "heading": "Address",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "State",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "Country",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "Pin Code",
+      "span": "",
+      "type": "number"
+    },
+    {
+      "heading": "Phone Number",
+      "span": "",
+      "type": "tel"
+    },
+    {
+      "heading": "Department ",
+      "span": "*",
+      "type": "selector",
+      "options": [
+        "Select Department",
+        "Web Development",
+        "IT Management",
+        "Marketing"
+      ]
+    },
+    {
+      "heading": "Designation ",
+      "span": "*",
+      "type": "selector",
+      "options": [
+        "Select Designation",
+        "Web Designer",
+        "Web Developer",
+        "Android Developer"
+      ]
+    },
+    {
+      "heading": "Reports To  ",
+      "span": "*",
+      "type": "selector",
+      "options": ["-", "Wilmer Deluna", "Lesley Grauer", "Jeffery Lalor"]
+    }
+  ],
+  "PopUpECForm": [
+    {
+      "heading": "Name",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Relationship",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Phone",
+      "span": "*",
+      "type": "tel"
+    },
+    {
+      "heading": "Phone2",
+      "span": "*",
+      "type": "tel"
+    }
+  ],
+  "PopUpECFormSecondData": [
+    {
+      "heading": "Name",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Relationship",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Phone",
+      "span": "*",
+      "type": "tel"
+    },
+    {
+      "heading": "Phone2",
+      "span": "*",
+      "type": "tel"
+    }
+  ],
+  "PopUpFormEI": [
+    {
+      "heading": "Passport No",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "Passport Expiry Date",
+      "span": "",
+      "placeholder": "Select Date",
+      "icon": "FaCalendarAlt",
+      "type": "date"
+    },
+    {
+      "heading": "Tel",
+      "span": "*",
+      "type": "tel"
+    },
+    {
+      "heading": "Religion",
+      "span": "",
+      "type": "text"
+    },
+
+    {
+      "heading": "Martial Status",
+      "type": "selector",
+      "options": ["-", "Single", "Married"]
+    },
+    {
+      "heading": "  Employment of spouse",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "No. of children",
+      "span": "",
+      "type": "text"
+    }
+  ],
   "AddEmployeePopUpData": [
     {
       "heading": "First Name",
@@ -399,19 +558,12 @@
     {
       "heading": "Role",
       "type": "selector",
-      "options": [
-        "Admin",
-        "Client",
-        "Employee"
-      ]
+      "options": ["Admin", "Client", "Employee"]
     },
     {
       "heading": "Company",
       "type": "selector",
-      "options": [
-        "Global Technologies",
-        "Delta Infotech"
-      ]
+      "options": ["Global Technologies", "Delta Infotech"]
     },
     {
       "heading": "Employee ID",

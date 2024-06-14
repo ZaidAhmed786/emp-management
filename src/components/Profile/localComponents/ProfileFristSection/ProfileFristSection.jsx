@@ -66,12 +66,16 @@ const ProfileFristSection = () => {
                           />
                         ) : null}
                         <a href="#">{item.textlink}</a>
-                        <p className={classNames({ 'no-margin': index === 5 && item.image })}>
+                        <p
+                          className={classNames({
+                            "no-margin": index === 5 && item.image,
+                          })}
+                        >
                           {item.text}
                         </p>
                         {item.icon ? (
-                          <a  className="icon" onClick={handleIconClick}>
-                          {icons[index]}
+                          <a className="icon" onClick={handleIconClick}>
+                            {icons[index]}
                           </a>
                         ) : null}
                       </div>
@@ -82,7 +86,7 @@ const ProfileFristSection = () => {
             </div>
           </div>
         </div>
-        <PopUp ref={modalButtonRef} />
+        <PopUp ref={modalButtonRef}></PopUp>
       </section>
     </>
   );

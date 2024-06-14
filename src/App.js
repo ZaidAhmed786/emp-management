@@ -11,14 +11,12 @@ import PopUpFormFI from "./components/FormsPopUp/PopUpFormFI/PopUpFormFI";
 function App() {
   return (
     <>
-      {/* <ToastContainer autoClose={3000} />
-      <ManageRoutes /> */}
-      {/* <DashboardProfile /> */}
+      <ToastContainer autoClose={3000} />
+      <ManageRoutes />
+      <DashboardProfile />
       {/* <Attendance /> */}
       {/* <AddEmployeePopUp /> */}
       {/* <Employee /> */}
-      {/* <PopUpFormExp /> */}
-      <PopUpFormFI />
     </>
   );
 }
