@@ -363,6 +363,64 @@
       ]
     }
   ],
+
+  "AddUserPopUpData": [
+    {
+      "heading": "First Name",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Last Name",
+      "type": "text"
+    },
+    {
+      "heading": "Username",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Email",
+      "span": "*",
+      "type": "email"
+    },
+    {
+      "heading": "Password",
+      "type": "password"
+    },
+    {
+      "heading": "Confirm Password",
+      "type": "password"
+    },
+    {
+      "heading": "Phone",
+      "type": "tel"
+    },
+    {
+      "heading": "Role",
+      "type": "selector",
+      "options": [
+        "Admin",
+        "Client",
+        "Employee"
+      ]
+    },
+    {
+      "heading": "Company",
+      "type": "selector",
+      "options": [
+        "Global Technologies",
+        "Delta Infotech"
+      ]
+    },
+    {
+      "heading": "Employee ID",
+      "span": "*",
+      "placeholder": "",
+      "type": "text"
+    }
+  ],
+
   "Roles": [
     {
       "role": "Admin"

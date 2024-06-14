@@ -7,6 +7,7 @@ import Layout from "./layout/Layout";
 import Profile from "../components/Profile/DashboardProfile/DashboardProfile";
 import AdminDashboard from "../components/Dashboard/AdminDashboard/Components/AdminInfoSection/AdminInfoSection";
 import AttendancePage from "../components/AttendenceSection/AttendancePage/AttendancePage";
+import User from "../components/User/User";
 import { useSelector } from "react-redux";
 // import { selectUserRole } from "../store/slices/AuthSlice.jsx";
 const ManageRoutes = () => {
@@ -63,6 +64,14 @@ const ManageRoutes = () => {
             element={
               <ProtectedRoute>
                 <AttendancePage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/user-page"
+            element={
+              <ProtectedRoute>
+                <User />
               </ProtectedRoute>
             }
           />
