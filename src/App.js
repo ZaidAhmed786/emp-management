@@ -9,9 +9,9 @@ import DashboardProfile from "./components/Profile/DashboardProfile/DashboardPro
 function App() {
   return (
     <>
-      {/* <ToastContainer autoClose={3000} />
-      <ManageRoutes /> */}
-      <DashboardProfile />
+      <ToastContainer autoClose={3000} />
+      <ManageRoutes />
+      {/* <DashboardProfile /> */}
       {/* <Attendance /> */}
       {/* <AddEmployeePopUp /> */}
       {/* <Employee /> */}
