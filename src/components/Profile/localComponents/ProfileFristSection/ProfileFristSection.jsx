@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import avatar from "../../../images/avatar-02.jpg";
 import "./ProfileFristSection.css";
 import data  from "../../../../data.json";
 import classNames from 'classnames';
 import { MdOutlineEdit } from "react-icons/md";
+import PopUp from "../../../PopUp/PopUp";
 
 const ProfileFristSection = () => {
+  const modalButtonRef = useRef(null);
+
+  const handleIconClick = () => {
+    if (modalButtonRef.current) {
+      modalButtonRef.current.click();
+    }
+  };
   const { ProfileFristSectionData } = data;
   const icons = [
     <MdOutlineEdit />
@@ -62,7 +70,7 @@ const ProfileFristSection = () => {
                           {item.text}
                         </p>
                         {item.icon ? (
-                          <a href="#" className="icon">
+                          <a  className="icon" onClick={handleIconClick}>
                           {icons[index]}
                           </a>
                         ) : null}
@@ -74,6 +82,7 @@ const ProfileFristSection = () => {
             </div>
           </div>
         </div>
+        <PopUp ref={modalButtonRef} />
       </section>
     </>
   );

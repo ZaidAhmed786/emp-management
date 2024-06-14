@@ -3,7 +3,7 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 import "./PopUp.css";
 import { FaPlusCircle } from "react-icons/fa";
 import { FaCalendarAlt } from "react-icons/fa";
-const PopUp = React.forwardRef((props, ref) => {
+const PopUp = React.forwardRef((props, ref,) => {
   return (
     <>
       <button
@@ -218,9 +218,10 @@ const PopUp = React.forwardRef((props, ref) => {
             </div>
             <div className="modal-footer">
               <div className=" mt-5 d-flex justify-content-center">
-                <button type="button" class="btn submit-btn text-white">
+              {props.children}
+                {/* <button type="button" class="btn submit-btn text-white">
                   Submit
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

@@ -1,12 +1,22 @@
-import BankInformationCard from "../Profile/localComponents/BankInformationCard/BankInformationCard";
-import EducationInformationsCard from "../Profile/localComponents/EducationInformationsCard/EducationInformationsCard";
-import EmergencyContactCard from "../Profile/localComponents/EmergencyContactCard/EmergencyContactCard";
-import ExperienceCard from "../Profile/localComponents/ExperienceCard/ExperienceCard";
-import FamilyInformationsCard from "../Profile/localComponents/FamilyInformationsCard/FamilyInformationsCard";
-import InfoBankStatutory from "../Profile/localComponents/InfoBankStatutory/InfoBankStatutory";
-import PersonalInformationCard from "../Profile/localComponents/PersonalInformationCard/PersonalInformationCard";
+import React, { useRef } from "react";
+import BankInformationCard from "../profile/localComponents/BankInformationCard/BankInformationCard";
+import EducationInformationsCard from "../profile/localComponents/EducationInformationsCard/EducationInformationsCard";
+import EmergencyContactCard from "../profile/localComponents/EmergencyContactCard/EmergencyContactCard";
+import ExperienceCard from "../profile/localComponents//ExperienceCard/ExperienceCard";
+import FamilyInformationsCard from "../profile/localComponents/FamilyInformationsCard/FamilyInformationsCard";
+import InfoBankStatutory from "../profile/localComponents//InfoBankStatutory/InfoBankStatutory";
+import PersonalInformationCard from "../profile/localComponents//PersonalInformationCard/PersonalInformationCard";
 import "./TabNav.css";
+import PopUp from "../PopUp/PopUp";
 function TabNav() {
+  const modalButtonRef = useRef(null);
+
+  const handleIconClick = () => {
+    console.log('clicked');
+    if (modalButtonRef.current) {
+      modalButtonRef.current.click();
+    }
+  };
   return (
     <>
       <section className="tab-section px-3">
@@ -75,26 +85,30 @@ function TabNav() {
             >
               <div className="row">
                 <div className="col-lg-6 ">
-                  <PersonalInformationCard />
+                  {/* <PersonalInformationCard/> */}
                 </div>
                 <div className="col-lg-6">
-                  <EmergencyContactCard />
+                  {/* <EmergencyContactCard /> */}
                 </div>
               </div>
               <div className="row ">
                 <div className="col-lg-6 ">
-                  <BankInformationCard />
+                  {/* <BankInformationCard /> */}
                 </div>
                 <div className="col-lg-6">
-                  <FamilyInformationsCard />
+                  {/* <FamilyInformationsCard /> */}
                 </div>
               </div>
               <div className="row ">
                 <div className="col-lg-6 mb-5">
-                  <EducationInformationsCard />
+                  {/* <EducationInformationsCard /> */}
                 </div>
                 <div className="col-lg-6 mb-5">
-                  <ExperienceCard />
+                  <ExperienceCard >
+                    <div>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis tempora saepe odio placeat, modi velit repellat illo tempore veritatis? Provident.
+                    </div>
+                  </ExperienceCard>
                 </div>
               </div>
             </div>
@@ -123,6 +137,7 @@ function TabNav() {
           </div>
         </div>
       </section>
+      <PopUp ref={modalButtonRef} />
     </>
   );
 }

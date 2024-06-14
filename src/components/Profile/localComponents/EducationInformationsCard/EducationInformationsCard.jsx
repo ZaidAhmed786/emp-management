@@ -15,14 +15,14 @@ const EducationInformationsCard = () => {
   return (
     <div className="mt-3 Card-col bg-white p-4">
       <div className="PersonalInformationCard-heading mb-3 d-flex align-items-center">
-        <h3 className="text-dark">Personal Informations </h3>
-        <a href="#" className="icon" onClick={handleIconClick}>
+        <h3 className="text-dark">Education Informations </h3>
+        <a className="icon" onClick={handleIconClick}>
           <MdOutlineEdit />
         </a>
       </div>
       {EducationInformationsCardData.map((item, index) => (
         <div key={item} className="text-afterline-rapo">
-          <a href="#">{item.heading}</a>
+          <a>{item.heading}</a>
           <p className="text-afterline-rapo-p ">{item.text}</p>
           <p className="text-afterline-rapo-second-p ">{item.texttwo}</p>
         </div>

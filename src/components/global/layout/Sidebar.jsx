@@ -34,6 +34,7 @@ const Sidebar = () => {
               <Collapsible title = "Dashboard" icon = {<FiGrid/>}>
                 <ul className="submenu_items">
                   <a href="admin-dashboard" className="nav_link sublink">Admin Dashboard</a>
+                  <a href="admin-dashboard" className="nav_link sublink">Employee Dashboard</a>
                 </ul>
               </Collapsible>
             </li>
@@ -49,14 +50,17 @@ const Sidebar = () => {
                 <span className="navlink">Tasks</span>
               </a>
             </li>
+            <ul className="menu_items">
+            <div className="menu_title menu_dahsboard"></div>
             <li className="item">
-              <a href="/attendance-page" className="nav_link">
-                <span className="navlink_icon">
-                  <BsPersonWorkspace />
-                </span>
-                <span className="navlink">Attendence</span>
-              </a>
+              <Collapsible title = "Attendance" icon = {<FiGrid/>}>
+                <ul className="submenu_items">
+                  <a href="/attendance-admin" className="nav_link sublink">Attendance (Admin)</a>
+                  <a href="/attendance-employee" className="nav_link sublink">Attendance (Employee)</a>
+                </ul>
+              </Collapsible>
             </li>
+          </ul>
             <li className="item">
               <a href="#" className="nav_link">
                 <span className="navlink_icon">

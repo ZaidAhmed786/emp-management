@@ -1,8 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./DashboardProfile.css";
-import ProfileFristSection from "../../Profile/localComponents/ProfileFristSection/ProfileFristSection";
+import ProfileFristSection from "../localComponents/ProfileFristSection//ProfileFristSection";
 import TabNav from "../../TabNav/TabNav";
+import AddEmployeePopUp from "../../AddEmployeePopUp/AddEmployeePopUp";
+import UserRoleTable from "../../userRoleTable/UserRoleTable";
+import PopUp from "../../PopUp/PopUp";
 const DashboardProfile = () => {
   return (
     <>
@@ -29,6 +32,8 @@ const DashboardProfile = () => {
       </section>
       <ProfileFristSection />
       <TabNav />
+      {/* <UserRoleTable/> */}
+      {/* <AddEmployeePopUp/> */}
      </div>
     </>
   );

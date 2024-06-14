@@ -9,13 +9,12 @@ import User from "./components/User/User";
 function App() {
   return (
     <>
-      {/* <ToastContainer autoClose={3000} />
-      <ManageRoutes /> */}
+      <ToastContainer autoClose={3000} />
+      <ManageRoutes />
       {/* <DashboardProfile /> */}
       {/* <Attendance /> */}
       {/* <AddEmployeePopUp /> */}
       {/* <Employee /> */}
-      <User />
     </>
   );
 }
