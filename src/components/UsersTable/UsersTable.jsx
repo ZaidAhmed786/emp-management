@@ -1,7 +1,7 @@
 import React from "react";
 import "./UsersTable.css";
 import { FaSortDown, FaCaretUp } from "react-icons/fa";
-import DropdownMenu from "../Profile/localComponents/DropdownMenu/DropdownMenu";
+import DropdownMenu from "../profile//localComponents//DropdownMenu/DropdownMenu";
 import data from "../../data.json";
 
 const UsersTable = () => {

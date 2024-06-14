@@ -8,12 +8,12 @@ import Employee from "./components/Dashboard/Employee/Employee";
 function App() {
   return (
     <>
-      {/* <ToastContainer autoClose={3000} />
-      <ManageRoutes /> */}
+      <ToastContainer autoClose={3000} />
+      <ManageRoutes />
       {/* <DashboardProfile /> */}
       {/* <Attendance /> */}
       {/* <AddEmployeePopUp /> */}
-      <Employee />
+      {/* <Employee /> */}
     </>
   );
 }

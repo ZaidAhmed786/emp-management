@@ -4,16 +4,15 @@ import ProtectedRoute from "./../hooks/utils/ProtectedRoute";
 import Home from "./home/Home";
 import Login from "./auth/login/Login";
 import Layout from "./layout/Layout";
-import Profile from "../components/Profile/DashboardProfile/DashboardProfile";
+import Profile from "../components/profile/DashboardProfile/DashboardProfile";
 import AdminDashboard from "../components/Dashboard/AdminDashboard/Components/AdminInfoSection/AdminInfoSection";
 import AttendancePage from "../components/AttendenceSection/AttendancePage/AttendancePage";
-import { useSelector } from "react-redux";
+import AttendanceAdmin from "../components/AttendenceSection/AttendancePage/AttendanceAdmin";
+// import { useSelector } from "react-redux";
 // import { selectUserRole } from "../store/slices/AuthSlice.jsx";
 const ManageRoutes = () => {
-  // const userRole = useSelector(selectUserRole);
-  const selectUserRole = (state) => state.auth.userInfo.role;
-  const userRole = useSelector((state) => state.auth.userInfo.role);
-  // console.log('role from routes file', userRole);
+  // const selectUserRole = (state) => state.auth.userInfo.role;
+  // const userRole = useSelector((state) => state.auth.userInfo.role);
   return (
     <>
       <Routes>
@@ -59,7 +58,15 @@ const ManageRoutes = () => {
             }
           />
           <Route
-            path="/attendance-page"
+            path="/attendance-admin"
+            element={
+              <ProtectedRoute>
+                <AttendanceAdmin />
+              </ProtectedRoute>
+            }
+          />
+           <Route
+            path="/attendance-employee"
             element={
               <ProtectedRoute>
                 <AttendancePage />

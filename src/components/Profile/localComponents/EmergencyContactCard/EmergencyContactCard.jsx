@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../ProfileFristSection/ProfileFristSection.css";
 import data from "../../../../data.json";
 import { MdOutlineEdit } from "react-icons/md";
+import PopUp from "../../../PopUp/PopUp";
 
 const EmergencyContactCard = () => {
+  const modalButtonRef = useRef(null);
+
+  const handleIconClick = () => {
+    if (modalButtonRef.current) {
+      modalButtonRef.current.click();
+    }
+  };
   const EmergencyContactCardData = data.EmergencyContactCardData;
   return (
     <div className="mt-3 Card-col bg-white p-4">
       <div className="PersonalInformationCard-heading mb-3 d-flex align-items-center">
         <h3 className="text-dark">Emergency Contact</h3>
-        <a href="#" className="icon ">
+        <a  className="icon " onClick={handleIconClick}>
           <MdOutlineEdit />
         </a>
       </div>
@@ -48,6 +56,7 @@ const EmergencyContactCard = () => {
           )}
         </div>
       ))}
+       <PopUp ref={modalButtonRef} />
     </div>
   );
 };
