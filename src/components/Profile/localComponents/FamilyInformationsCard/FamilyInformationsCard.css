@@ -10,10 +10,8 @@
     width: 100%;
 }
 
-/* Style the scrollbar */
 .table-container::-webkit-scrollbar {
     width: 8px;
-    /* Width of the scrollbar */
     background: transparent;
 
 }

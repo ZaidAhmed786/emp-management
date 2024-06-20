@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import "../ProfileFristSection/ProfileFristSection.css";
 import data from "../../../../data.json";
 import { MdOutlineEdit } from "react-icons/md";
-import PopUp from "../../../PopUp/PopUp";
-import PopUpFormEI from "../../../FormsPopUp/PopUpFormEI/PopUpFormEI";
+import PersonalPopUp from "../../../PopUps/PersonalPopUp/PersonalPopUp";
+
 const PersonalInformationCard = () => {
   const modalButtonRef = useRef(null);
 
@@ -42,7 +42,7 @@ const PersonalInformationCard = () => {
             </div>
           </div>
         ))}
-        <PopUp ref={modalButtonRef}></PopUp>
+        <PersonalPopUp ref={modalButtonRef} />
       </div>
     </>
   );

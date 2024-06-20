@@ -1,14 +1,10 @@
 import React from "react";
 import { RiDeleteBin6Line } from "react-icons/ri";
-import "./PopUp.css";
+import "./ProfilePopUp.css";
 import { FaPlusCircle } from "react-icons/fa";
 import { FaCalendarAlt } from "react-icons/fa";
-import PopUpFormEI from "../FormsPopUp/PopUpFormEI/PopUpFormEI";
-import PopUpFirstForm from "../FormsPopUp/PopUpFirstForm/PopUpFirstForm";
-import PopUpECForm from "../FormsPopUp/PopUpECForm/PopUpECForm";
-import PopUpFormExp from "../FormsPopUp/PopUpFormExp/PopUpFormExp";
-import PopUpFormFI from "../FormsPopUp/PopUpFormFI/PopUpFormFI";
-const PopUp = React.forwardRef((props, ref) => {
+import PopUpFirstForm from "../../FormsPopUp/PopUpFirstForm/PopUpFirstForm";
+const ProfilePopUp = React.forwardRef((props, ref) => {
   return (
     <>
       <button
@@ -27,15 +23,11 @@ const PopUp = React.forwardRef((props, ref) => {
         aria-hidden="true"
       >
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-          {/* <PopUpFormEI /> */}
-          {/* <PopUpFirstForm /> */}
-          {/* <PopUpECForm /> */}
-          {/* <PopUpFormExp /> */}
-          {/* <PopUpFormFI /> */}
+          <PopUpFirstForm />
         </div>
       </div>
     </>
   );
 });
 
-export default PopUp;
+export default ProfilePopUp;
