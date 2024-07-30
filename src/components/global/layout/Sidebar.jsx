@@ -8,8 +8,13 @@ import { GiReceiveMoney } from "react-icons/gi";
 import { RiExpandRightFill, RiExpandLeftFill } from "react-icons/ri";
 import { CgUserList, CgProfile } from "react-icons/cg"; 
 import Collapsible from '../../../hooks/utils/MouseEvents';
+import { useSelector } from "react-redux";
+import { selectUserRole } from "../../../store/slices/AuthSlice";
+ 
 
 const Sidebar = () => { 
+  const userRole = useSelector(selectUserRole);
+  console.log('User role is in side bar:', userRole);
   const ref = useRef(null);
   const mouseEnter = () => {
     if (ref.current.firstChild.classList.contains("hoverable")) { 
@@ -34,6 +39,9 @@ const Sidebar = () => {
               <Collapsible title = "Dashboard" icon = {<FiGrid/>}>
                 <ul className="submenu_items">
                   <a href="admin-dashboard" className="nav_link sublink">Admin Dashboard</a>
+                </ul>
+                <ul className="submenu_items">
+                  <a href="admin-dashboard" className="nav_link sublink">Empoloyee Dashboard</a>
                 </ul>
               </Collapsible>
             </li>

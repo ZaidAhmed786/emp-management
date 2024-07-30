@@ -1,12 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 import userData from "../../data.json"
 const initialState = {
-    userInfo: {}, // for user object
+    userInfo: { role: userData?.Roles[0]?.role || 'defaultRole' },
     userToken: null,
     isLoggedIn: false, // for monitoring the registration process.
   }
   const { Roles } = userData;
-  console.log('Roles', Roles[0].role);
+  console.log('Roles', Roles[1].role);
 const authSlice = createSlice({
     name: 'auth',
     initialState,
