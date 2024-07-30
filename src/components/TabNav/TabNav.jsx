@@ -1,12 +1,22 @@
+import React, { useRef } from "react";
 import BankInformationCard from "../Profile/localComponents/BankInformationCard/BankInformationCard";
 import EducationInformationsCard from "../Profile/localComponents/EducationInformationsCard/EducationInformationsCard";
 import EmergencyContactCard from "../Profile/localComponents/EmergencyContactCard/EmergencyContactCard";
 import ExperienceCard from "../Profile/localComponents/ExperienceCard/ExperienceCard";
 import FamilyInformationsCard from "../Profile/localComponents/FamilyInformationsCard/FamilyInformationsCard";
-import InfoBankStatutory from "../Profile/localComponents/InfoBankStatutory/InfoBankStatutory";
+import InfoBankStatutory from "../Profile/localComponents//InfoBankStatutory/InfoBankStatutory";
 import PersonalInformationCard from "../Profile/localComponents/PersonalInformationCard/PersonalInformationCard";
 import "./TabNav.css";
+import PopUp from "../PopUps/ProfilePopUp/ProfilePopUp";
 function TabNav() {
+  const modalButtonRef = useRef(null);
+
+  const handleIconClick = () => {
+    console.log("clicked");
+    if (modalButtonRef.current) {
+      modalButtonRef.current.click();
+    }
+  };
   return (
     <>
       <section className="tab-section px-3">
@@ -94,7 +104,13 @@ function TabNav() {
                   <EducationInformationsCard />
                 </div>
                 <div className="col-lg-6 mb-5">
-                  <ExperienceCard />
+                  <ExperienceCard>
+                    <div>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Reiciendis tempora saepe odio placeat, modi velit repellat
+                      illo tempore veritatis? Provident.
+                    </div>
+                  </ExperienceCard>
                 </div>
               </div>
             </div>
@@ -123,6 +139,7 @@ function TabNav() {
           </div>
         </div>
       </section>
+      <PopUp ref={modalButtonRef} />
     </>
   );
 }

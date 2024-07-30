@@ -6,6 +6,7 @@ import { MdOutlineNotifications } from "react-icons/md";
 import { AiOutlineLogout } from "react-icons/ai";
 import Navbar from "react-bootstrap/Navbar";
 import { Container, Nav, NavDropdown } from "react-bootstrap";
+import "../layout/layout.css";
 const TopNavbar = () => {
   const logout = authSlice.actions.logout;
   const dispatch = useDispatch();
@@ -13,9 +14,15 @@ const TopNavbar = () => {
     dispatch(logout());
   };
   return (
-    <Navbar expand="lg" className="bg-light fixed-top" >
+    <Navbar expand="lg" className="fixed-top main-nav">
       <Container>
-        <Navbar.Brand href="/">Leilani Tech</Navbar.Brand>
+        <Navbar.Brand href="/" className="navbar-brand">
+          <div class="sign">
+            <span class="fast-flicker"> L</span>eilani Te
+            <span class="flicker">t</span>
+            ch
+          </div>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -24,10 +31,9 @@ const TopNavbar = () => {
             navbarScroll
           >
             <Nav.Link href="#action1">
-              {" "}
               <MdOutlineNotifications
                 style={{
-                  fontSize: "1.5rem",
+                  fontSize: "2.0rem",
                   color: "#707070",
                   cursor: "pointer",
                 }}
@@ -35,20 +41,26 @@ const TopNavbar = () => {
             </Nav.Link>
             <Nav.Link href="#action1">
               <AiOutlineLogout
-                style={{ fontSize: "1.5rem", color: "red", cursor: "pointer" }}
+                style={{ fontSize: "2.0rem", color: "red", cursor: "pointer" }}
                 onClick={logoutHandler}
               />
             </Nav.Link>
             <Nav className="profile">
-              <img src={Profile} alt="" className="bg-light" />
+              <img src={Profile} alt="" className="bg-light img-fluid" />
             </Nav>
-            <NavDropdown title=" John Doe" id="navbarScrollingDropdown" style={{background: 'transparent', color: 'black'}} >
-              <NavDropdown.Item href="profile">profile</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
+            <NavDropdown
+              title=" John Doe"
+              id="navbarScrollingDropdown"
+              className="main-navdropdown"
+            >
+              <NavDropdown.Item href="profile" className="nav-drop-down-item">
+                profile
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action4" className="nav-drop-down-item">
                 Another action
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="#action5" className="nav-drop-down-item">
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>

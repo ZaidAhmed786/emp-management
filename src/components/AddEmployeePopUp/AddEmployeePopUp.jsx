@@ -1,6 +1,7 @@
 import React from "react";
 import "./AddEmployeePopUp.css";
 import AddEmployeePopUpInputText from "../AddEmployeePopUpInputText/AddEmployeePopUpInputText";
+import UserRoleTable from "../userRoleTable/UserRoleTable";
 import data from "../../data.json";
 
 const AddEmployeePopUp = () => {
@@ -51,6 +52,7 @@ const AddEmployeePopUp = () => {
                     ))}
                   </div>
                 </div>
+                <UserRoleTable />
               </form>
             </div>
             <div className="modal-footer">

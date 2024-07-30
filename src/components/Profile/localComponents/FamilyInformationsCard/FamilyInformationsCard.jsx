@@ -1,18 +1,27 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../ProfileFristSection/ProfileFristSection.css";
 import { MdOutlineEdit } from "react-icons/md";
 import "./FamilyInformationsCard.css";
 import data from "../../../../data.json";
+import FamilyPopUp from "../../../PopUps/FamilyPopUp/FamilyPopUp";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
 
 const FamilyInformationsCard = () => {
+  const modalButtonRef = useRef(null);
+
+  const handleIconClick = () => {
+    if (modalButtonRef.current) {
+      modalButtonRef.current.click();
+    }
+  };
+
   const FamilyInformationsCardData = data.FamilyInformationsCardData;
 
   return (
     <div className="mt-3 Card-col bg-white p-4 family-information-card">
       <div className="PersonalInformationCard-heading mb-3 d-flex align-items-center">
         <h3 className="text-dark">Family Informations </h3>
-        <a href="#" className="icon">
+        <a href="#" className="icon" onClick={handleIconClick}>
           <MdOutlineEdit />
         </a>
       </div>
@@ -41,6 +50,7 @@ const FamilyInformationsCard = () => {
           ))}
         </div>
       </div>
+      <FamilyPopUp ref={modalButtonRef} />
     </div>
   );
 };

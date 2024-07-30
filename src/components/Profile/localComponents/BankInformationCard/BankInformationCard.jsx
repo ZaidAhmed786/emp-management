@@ -8,7 +8,7 @@ const BankInformationCard = () => {
   return (
     <div className="mt-3 BankInformationCard-col bg-white p-4">
       <div className="PersonalInformationCard-heading mb-3 d-flex align-items-center">
-        <h3 className="text-dark">Personal Informations </h3>
+        <h3 className="text-dark">Bank Information </h3>
       </div>
       {BankInformationCardData.map((data, index) => (
         <div key={index} className="info-txt-rapo d-flex align-items-center">

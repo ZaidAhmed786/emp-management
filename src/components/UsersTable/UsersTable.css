@@ -1,0 +1,149 @@
+.table>:not(caption)>*>* {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    --tw-text-opacity: 1;
+    color: rgb(187 196 204 / var(--tw-text-opacity));
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 0px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-table-accent-bg)));
+}
+
+.buttons-rapo {
+    position: relative;
+}
+
+.table-btn-two {
+    position: absolute;
+    top: -1px;
+    right: 0px;
+}
+
+.table-btn-one {
+    position: absolute;
+    top: -6px;
+    right: 0px;
+    z-index: 1;
+}
+
+.table-btn-three {
+    position: absolute;
+    top: -28px;
+    right: 0px;
+    z-index: 1;
+}
+
+.table-btn-four {
+    position: absolute;
+    top: -23px;
+    right: 0px;
+
+}
+
+.table-btn-one:active {
+    color: rgb(50, 35, 50);
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.table-btn-two:active {
+    color: rgb(50, 35, 50);
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.table-btn-one i:hover,
+.table-btn-one i:active,
+.table-btn-two i:hover,
+.table-btn-two i:active,
+.table-btn-three i:hover,
+.table-btn-three i:active,
+.table-btn-four i:hover,
+.table-btn-four i:active {
+    color: rgb(102, 149, 211);
+}
+
+.table-btn-one i,
+.table-btn-two i,
+.table-btn-three i,
+.table-btn-four i {
+    color: rgb(232, 232, 232);
+}
+
+.user-image {
+    width: 50px;
+    height: 50px;
+}
+
+.user-name h6 {
+
+    margin-top: 10px;
+}
+
+.user-name a {
+    text-decoration: none;
+    --tw-text-opacity: 1 !important;
+    color: rgb(187 196 204) !important;
+
+}
+
+.user-name span {
+    --tw-text-opacity: 1;
+    color: rgb(102 102 102 / var(--tw-text-opacity));
+    font-size: 0.75rem;
+    line-height: 1rem;
+
+
+}
+
+
+
+.bgcolorlightblack {
+    background-color: black;
+}
+
+.bgcolorblack {
+    background-color: rgb(255, 254, 254);
+    color: azure;
+}
+
+.role-admin {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.229);
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding-left: 0.65em;
+    padding-right: 0.65em;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    margin-top: 10px;
+}
+
+.role-employee {
+    color: rgb(0, 255, 0);
+    background-color: rgba(0, 255, 0, 0.072);
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding-left: 0.65em;
+    padding-right: 0.65em;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    margin-top: 10px;
+}
+
+.role-client {
+    background-color: rgba(85, 138, 132, 0.397);
+    color: rgb(29 185 170);
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding-left: 0.65em;
+    padding-right: 0.65em;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+    margin-top: 10px;
+}

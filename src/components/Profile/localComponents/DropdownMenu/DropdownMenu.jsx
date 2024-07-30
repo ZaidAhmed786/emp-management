@@ -6,7 +6,7 @@ const DropdownMenu = () => {
   return (
     <div className="dropdown d-flex align-items-center">
       <button
-        className="btn  text-dark icon-button"
+        className="btn  text-light icon-button"
         type="button"
         id="dropdownMenuButton"
         data-bs-toggle="dropdown"

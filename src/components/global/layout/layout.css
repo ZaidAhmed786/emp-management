@@ -76,7 +76,7 @@ body {
 
 /* sidebar */
 .sidebar {
-  background-color: var(--white-color);
+background-color: #e7e7e7;
   width: 260px;
   position: fixed;
   top: 0;
@@ -107,17 +107,33 @@ body {
   padding: 6px 30px;
 }
 .menu_title::before {
-  color: var(--grey-color);
+color: black;
   white-space: nowrap;
 }
 .menu_dahsboard::before {
   content: "Dashboard";
+content: "Dashboard";
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: black;
+  text-shadow: 1px 1px 2px black;
 }
 .menu_editor::before {
   content: "Employee";
+    font-weight: 300;
+      letter-spacing: 1px;
+      /* font-family: auto; */
+      color: black;
+      text-shadow: 1px 1px 2px black;
 }
 .menu_setting::before {
+
   content: "Setting";
+    font-weight: 300;
+      letter-spacing: 1px;
+      /* font-family: auto; */
+      color: black;
+      text-shadow: 1px 1px 2px black;
 }
 .sidebar.close .menu_title::before {
   content: "";
@@ -150,7 +166,7 @@ body {
   /* left: -20px; */
 }
 .navlink_icon:hover {
-  background: var(--blue-color);
+background-color: transparent;
 }
 .sidebar .nav_link {
   display: flex;
@@ -159,7 +175,7 @@ body {
   padding: 0px 15px;
   border-radius: 8px;
   text-decoration: none;
-  color: var(--grey-color);
+  color: rgb(26, 26, 26);
   white-space: nowrap;
 }
 .sidebar.close .navlink {
@@ -167,7 +183,7 @@ body {
 }
 .nav_link:hover {
   color: var(--white-color);
-  background: var(--blue-color);
+    background: #ff0000db;
 }
 .nav_link:hover .navlink_icon{
   color: var(--white-color); 
@@ -218,13 +234,32 @@ body {
   width: 100%;
   color: var(--grey-color);
   border-top: 1px solid var(--grey-color-light);
-  background-color: var(--white-color);
+  background-color: #e7e7e7;
+  }
+  
+  .bottom:hover {
+    background-color: #ff0000db;
+    color: white !important;
 }
 .bottom i {
   font-size: 20px;
 }
 .bottom span {
-  font-size: 18px;
+      font-size: 18px;
+      font-weight: 300;
+        letter-spacing: 1px;
+        /* font-family: auto; */
+      
+        text-shadow: 1px 1px 2px black;
+      }
+      
+      .bottom span:hover {
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        /* font-family: auto; */
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 .sidebar.close .bottom_content {
   width: 50px;
@@ -264,3 +299,247 @@ body {
     left: -100%;
   }
 }
+.main-nav {
+  background-color: #e7e7e7;
+}
+
+.navbar-brand {
+  position: relative;
+}
+
+.sign {
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 2px;
+  left: 0;
+  top: 50%;
+  font-family: "Clip";
+  text-transform: uppercase;
+  font-size: 30px;
+  color: rgba(255, 155, 68, 1);
+  /* Main color from linear gradient */
+  text-shadow: 0 0 0.6rem rgba(255, 155, 68, 0.7),
+    0 0 1.5rem rgba(252, 96, 117, 0.7);
+  /* Adjusted text-shadow */
+  animation: shine 2s forwards, flicker 3s infinite;
+  font-weight: 500;
+}
+
+@keyframes blink {
+
+  0%,
+  22%,
+  36%,
+  75% {
+    color: rgba(255, 155, 68, 1);
+    /* Main color from linear gradient */
+    text-shadow: 0 0 0.6rem rgba(255, 155, 68, 0.7),
+      0 0 1.5rem rgba(252, 96, 117, 0.7);
+    /* Adjusted text-shadow */
+  }
+
+  28%,
+  33% {
+    color: rgba(255, 155, 68, 1);
+    /* Main color from linear gradient */
+    text-shadow: none;
+    /* No text-shadow during these frames */
+  }
+
+  82%,
+  97% {
+    color: rgba(252, 96, 117, 1);
+    /* Secondary color from linear gradient */
+    text-shadow: none;
+    /* No text-shadow during these frames */
+  }
+}
+
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes shine {
+  0% {
+    color: rgba(255, 155, 68, 1);
+    /* Main color from linear gradient */
+    text-shadow: none;
+    /* No text-shadow at start */
+  }
+
+  100% {
+    color: rgba(252, 96, 117, 1);
+    /* Secondary color from linear gradient */
+    text-shadow: 0 0 0.6rem rgba(252, 96, 117, 0.7),
+      0 0 1.5rem rgba(252, 96, 117, 0.7);
+    /* Adjusted text-shadow */
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+  
+        11% {
+          opacity: 0.922;
+        }
+    
+        12% {
+          opacity: 0.9;
+        }
+    
+        14% {
+          opacity: 0.95;
+        }
+    
+        16% {
+          opacity: 0.98;
+        }
+    
+        17% {
+          opacity: 0.9;
+        }
+    
+        19% {
+          opacity: 0.93;
+        }
+    
+        20% {
+          opacity: 0.99;
+        }
+    
+        24% {
+          opacity: 1;
+        }
+    
+        26% {
+          opacity: 0.94;
+        }
+    
+        28% {
+          opacity: 0.98;
+        }
+    
+        37% {
+          opacity: 0.93;
+        }
+    
+        38% {
+          opacity: 0.5;
+        }
+    
+        39% {
+          opacity: 0.96;
+        }
+    
+        42% {
+          opacity: 1;
+        }
+    
+        44% {
+          opacity: 0.97;
+        }
+    
+        46% {
+          opacity: 0.94;
+        }
+    
+        56% {
+          opacity: 0.9;
+        }
+    
+        58% {
+          opacity: 0.9;
+        }
+    
+        60% {
+          opacity: 0.99;
+        }
+    
+        68% {
+          opacity: 1;
+        }
+    
+        70% {
+          opacity: 0.9;
+        }
+    
+        72% {
+          opacity: 0.95;
+        }
+    
+        93% {
+          opacity: 0.93;
+        }
+    
+        95% {
+          opacity: 0.95;
+        }
+    
+        97% {
+          opacity: 0.93;
+        }
+    
+        to {
+          opacity: 1;
+        }
+        }
+    
+        .dropdown-toggle {
+          --tw-bg-opacity: 1;
+          background-color: rgb(159, 161, 163) !important;
+          --tw-border-opacity: 1;
+          border-color: rgb(46 56 64 / var(--tw-border-opacity));
+          color: rgb(0, 0, 0) !important;
+          border-radius: 20px !important;
+          padding: 20px;
+        }
+    
+        .nav-drop-down-item {
+          background: "gray";
+          color: "white";
+          font-weight: "normal";
+        }
+    
+        .nav-drop-down-item:hover {
+          background: "red " !important;
+          color: "white" !important;
+          font-weight: "bold" !important;
+        }
+    
+        .main-navdropdown::before {
+          content: "";
+          content: "";
+          width: 0% !important;
+          height: 0px !important;
+          border-bottom: transparent !important;
+          position: absolute;
+          top: -11px;
+          left: 0px;
+        }

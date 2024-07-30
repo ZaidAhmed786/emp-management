@@ -1,0 +1,8 @@
+.AddUserPopUpInputText-dropdown-toggle,
+.AddUserPopUpInputText-dropdown-toggle:focus-visible,
+.AddUserPopUpInputText-dropdown-toggle:hover,
+.AddUserPopUpInputText-dropdown-toggle:active {
+    background-color: transparent !important;
+    border-color: rgba(128, 128, 128, 0.158) !important;
+    color: black !important;
+}

@@ -1,0 +1,21 @@
+#UserName::placeholder{
+    font-size: 12px;
+    color: #666666;
+    font-weight: 500;
+    font-family: "poppins";
+}
+
+#UserName{
+    font-size: 12px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "poppins";
+}
+
+#UserName{
+    border: none;
+}
+
+#UserName:focus{
+    outline: none;
+}

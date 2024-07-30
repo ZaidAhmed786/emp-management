@@ -289,6 +289,165 @@
       "texttwo": ""
     }
   ],
+  "PopUpFirstForm": [
+    {
+      "heading": "First Name",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "Last Name",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "Birth Date",
+      "icon": "FaCalendarAlt",
+      "type": "date"
+    },
+    {
+      "heading": "Gender",
+      "type": "selector",
+      "options": ["-", "Male", "Female"]
+    },
+    {
+      "heading": "Address",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "State",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "Country",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "Pin Code",
+      "span": "",
+      "type": "number"
+    },
+    {
+      "heading": "Phone Number",
+      "span": "",
+      "type": "tel"
+    },
+    {
+      "heading": "Department ",
+      "span": "*",
+      "type": "selector",
+      "options": [
+        "Select Department",
+        "Web Development",
+        "IT Management",
+        "Marketing"
+      ]
+    },
+    {
+      "heading": "Designation ",
+      "span": "*",
+      "type": "selector",
+      "options": [
+        "Select Designation",
+        "Web Designer",
+        "Web Developer",
+        "Android Developer"
+      ]
+    },
+    {
+      "heading": "Reports To  ",
+      "span": "*",
+      "type": "selector",
+      "options": ["-", "Wilmer Deluna", "Lesley Grauer", "Jeffery Lalor"]
+    }
+  ],
+  "PopUpECForm": [
+    {
+      "heading": "Name",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Relationship",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Phone",
+      "span": "*",
+      "type": "tel"
+    },
+    {
+      "heading": "Phone2",
+      "span": "*",
+      "type": "tel"
+    }
+  ],
+  "PopUpECFormSecondData": [
+    {
+      "heading": "Name",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Relationship",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Phone",
+      "span": "*",
+      "type": "tel"
+    },
+    {
+      "heading": "Phone2",
+      "span": "*",
+      "type": "tel"
+    }
+  ],
+  "PopUpFormEI": [
+    {
+      "heading": "Passport No",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "Passport Expiry Date",
+      "span": "",
+      "placeholder": "Select Date",
+      "icon": "FaCalendarAlt",
+      "type": "date"
+    },
+    {
+      "heading": "Tel",
+      "span": "*",
+      "type": "tel"
+    },
+    {
+      "heading": "Religion",
+      "span": "",
+      "type": "text"
+    },
+
+    {
+      "heading": "Martial Status",
+      "type": "selector",
+      "options": ["-", "Single", "Married"]
+    },
+    {
+      "heading": "  Employment of spouse",
+      "span": "",
+      "type": "text"
+    },
+    {
+      "heading": "No. of children",
+      "span": "",
+      "type": "text"
+    }
+  ],
   "AddEmployeePopUpData": [
     {
       "heading": "First Name",
@@ -363,6 +522,117 @@
       ]
     }
   ],
+
+  "AddUserPopUpData": [
+    {
+      "heading": "First Name",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Last Name",
+      "type": "text"
+    },
+    {
+      "heading": "Username",
+      "span": "*",
+      "type": "text"
+    },
+    {
+      "heading": "Email",
+      "span": "*",
+      "type": "email"
+    },
+    {
+      "heading": "Password",
+      "type": "password"
+    },
+    {
+      "heading": "Confirm Password",
+      "type": "password"
+    },
+    {
+      "heading": "Phone",
+      "type": "tel"
+    },
+    {
+      "heading": "Role",
+      "type": "selector",
+      "options": ["Admin", "Client", "Employee"]
+    },
+    {
+      "heading": "Company",
+      "type": "selector",
+      "options": ["Global Technologies", "Delta Infotech"]
+    },
+    {
+      "heading": "Employee ID",
+      "span": "*",
+      "placeholder": "",
+      "type": "text"
+    }
+  ],
+
+  "ExpPopUpData": [
+    {
+      "heading": "",
+      "span": "",
+      "type": "text",
+      "placeholder": "Company Name"
+    },
+    {
+      "heading": "",
+      "span": "",
+      "type": "text",
+      "placeholder": "Location"
+    },
+    {
+      "heading": "",
+      "span": "",
+      "type": "text",
+      "placeholder": "Job Position"
+    },
+    {
+      "heading": "",
+      "span": "",
+      "type": "date",
+      "placeholder": ""
+    },
+    {
+      "heading": "",
+      "span": "",
+      "type": "date",
+      "placeholder": ""
+    }
+  ],
+
+  "FiPopUpData": [
+    {
+      "heading": "Name",
+      "span": "*",
+      "type": "text",
+      "placeholder": ""
+    },
+    {
+      "heading": "Relationship",
+      "span": "*",
+      "type": "text",
+      "placeholder": ""
+    },
+    {
+      "heading": "Date of Birth",
+      "span": "*",
+      "type": "date",
+      "placeholder": ""
+    },
+    {
+      "heading": "Phone",
+      "span": "*",
+      "type": "tel",
+      "placeholder": ""
+    }
+  ],
+
   "Roles": [
     {
       "role": "Admin"
@@ -424,6 +694,161 @@
     {
       "Text": "Punch Out at",
       "Time": "7.30 PM."
+    }
+  ],
+  "UsersTable": [
+    {
+      "username": "Barry Cuda ",
+      "userprofession": "Global Technologies",
+      "useremail": "barrycuda@example.com",
+      "usercompany": "Global Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Client",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-19.jpg"
+    },
+    {
+      "username": "Daniel Porter ",
+      "userprofession": "Admin",
+      "useremail": "danielporter@example.com",
+      "usercompany": "Dreamguy's Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Admin",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-21.jpg"
+    },
+    {
+      "username": "John Doe ",
+      "userprofession": "Web Designer",
+      "useremail": "johndoe@example.com",
+      "usercompany": "Dreamguy's Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Employee",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-02.jpg"
+    },
+    {
+      "username": "John Smith ",
+      "userprofession": "Android Developer",
+      "useremail": "johnsmith@example.com",
+      "usercompany": "Dreamguy's Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Employee",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-10.jpg"
+    },
+    {
+      "username": "Mike Litorus ",
+      "userprofession": "IOS Developer",
+      "useremail": "mikelitorus@example.com",
+      "usercompany": "Dreamguy's Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Employee",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-05.jpg"
+    },
+    {
+      "username": "Richard Miles ",
+      "userprofession": "Admin",
+      "useremail": "richardmiles@example.com",
+      "usercompany": "Dreamguy's Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Employee",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-09.jpg"
+    },
+    {
+      "username": "Wilmer Deluna  ",
+      "userprofession": "Admin",
+      "useremail": "wilmerdeluna@example.com",
+      "usercompany": "Dreamguy's Technologies",
+      "userdate": "1 Jan 2013",
+      "userrole": "Employee",
+      "image": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-11.jpg"
+    }
+  ],
+  "EmployeeHistory": [
+    {
+      "heading": "TODAY",
+      "text": "Richard Miles is off sick today",
+      "imageone": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-09.jpg",
+      "imagetwo": ""
+    },
+    {
+      "heading": "",
+      "text": "You are away today",
+      "imageone": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-02.jpg",
+      "imagetwo": ""
+    },
+    {
+      "heading": "",
+      "text": "You are working from home today",
+      "imageone": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-02.jpg",
+      "imagetwo": ""
+    },
+    {
+      "heading": "TOMORROW",
+      "text": "2 people will be away tomorrow",
+      "imageone": " https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-08.jpg",
+      "imagetwo": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-04.jpg"
+    },
+    {
+      "heading": "NEXT SEVEN DAYS",
+      "text": "2 people are going to be away",
+      "imageone": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-07.jpg",
+      "imagetwo": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-05.jpg"
+    },
+    {
+      "heading": "",
+      "text": "Your first day is going to be on Thursday",
+      "imageone": "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-02.jpg",
+      "imagetwo": ""
+    },
+    {
+      "heading": "",
+      "text": "It's Spring Bank Holiday on Monday",
+      "imageone": "",
+      "imagetwo": ""
+    }
+  ],
+  "EmployeeHistorySecond": [
+    {
+      "heading": "PROJECTS",
+      "totaltasknumber": "71",
+      "totaltasktext": "TOTAL TASKS",
+      "pendingtasknumber": "14",
+      "pendingtasktext": "PENDING TASKS",
+      "totalprojectnumber": "2",
+      "totalprojecttext": "TOTAL PROJECTS",
+      "buttontext": "",
+      "upcomingtext": ""
+    },
+    {
+      "heading": "YOUR LEAVE",
+      "totaltasknumber": "4.5",
+      "totaltasktext": "LEAVE TAKEN",
+      "pendingtasknumber": "12",
+      "pendingtasktext": " REMAINING",
+      "totalprojectnumber": "",
+      "totalprojecttext": "",
+      "buttontext": "APPLY LEAVE",
+      "upcomingtext": ""
+    },
+    {
+      "heading": "YOUR TIME OFF ALLOWANCE",
+      "totaltasknumber": "5.0 Hours",
+      "totaltasktext": "APPROVED",
+      "pendingtasknumber": "15 Hours",
+      "pendingtasktext": " REMAINING",
+      "totalprojectnumber": "",
+      "totalprojecttext": "",
+      "buttontext": "Apply Time Off",
+      "upcomingtext": ""
+    },
+    {
+      "heading": "UPCOMING HOLIDAY",
+      "totaltasknumber": "",
+      "totaltasktext": "",
+      "pendingtasknumber": "",
+      "pendingtasktext": "",
+      "totalprojectnumber": "",
+      "totalprojecttext": "",
+      "buttontext": "",
+      "upcomingtext": "Fri 15 May 2022 - Good Friday"
     }
   ]
 }
