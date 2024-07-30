@@ -10,7 +10,7 @@ import { toast } from "react-toastify";
 const Login = () => {
   const [user, setUser] = useState();
   const { isLoading, postData } = UsePostData(
-    "http://localhost:3005/auth/login"
+    "https://leilani-crm.vercel.app/auth/login"
   );
   const navigate = useNavigate();
   // Check Login

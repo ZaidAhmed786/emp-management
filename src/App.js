@@ -13,7 +13,7 @@ function App() {
     <>
       <ToastContainer autoClose={3000} />
       <ManageRoutes />
-      <DashboardProfile />
+      {/* <DashboardProfile /> */}
       {/* <Attendance /> */}
       {/* <AddEmployeePopUp /> */}
       {/* <Employee /> */}
