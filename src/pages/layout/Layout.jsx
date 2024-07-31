@@ -7,7 +7,7 @@ const Layout = () => {
     <>
       <Navbar />
       <div className="layout">
-        <div>
+        <div style={{display: "flex"}}>
           <Sidebar className="sidebar" />
           <Outlet className="outlet" />
         </div>

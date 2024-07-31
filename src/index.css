@@ -1,12 +1,13 @@
  .center-align-item {
-    margin-left: auto !important;   
+    margin-left: auto !important;
  }
- .center-align-item .profile{ 
+
+ .center-align-item .profile {
     margin: 0 10px;
- } 
- 
+ }
+
  .layout {
-   margin-left: 280px; 
-   margin-top: 60px;
-background-color: white !important;
+    /* margin-left: 280px; */
+    margin-top: 75px;
+    background-color: white !important;
  }

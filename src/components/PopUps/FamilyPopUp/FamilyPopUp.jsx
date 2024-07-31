@@ -23,7 +23,7 @@ const FamilyPopUp = React.forwardRef((props, ref) => {
         aria-labelledby="familyModalLabel"
         aria-hidden="true"
       >
-        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div className="modal-dialog modal-dialog-centered  modal-lg">
           <PopUpFormFI />
         </div>
       </div>

@@ -30,6 +30,7 @@ const PopUpFirstFormInputs = ({ FPdata, index }) => {
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
+              style={{padding: "10px 12px", marginLeft: "10px"}}
             ></button>
             <ul className="dropdown-menu dropdown-menu-end">
               {FPdata.options.map((option, idx) => (

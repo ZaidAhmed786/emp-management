@@ -17,17 +17,15 @@ const TopNavbar = () => {
     <Navbar expand="lg" className="fixed-top main-nav">
       <Container>
         <Navbar.Brand href="/" className="navbar-brand">
-          <div class="sign">
-            <span class="fast-flicker"> L</span>eilani Te
-            <span class="flicker">t</span>
-            ch
+          <div class="logo">
+            <img src="./images/leilani-logo.png" alt="" />
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="ml-auto my-2 my-lg-0 center-align-item"
-            style={{ maxHeight: "100px" }}
+            style={{ maxHeight: "100px", alignItems: "center" }}
             navbarScroll
           >
             <Nav.Link href="#action1">
@@ -49,11 +47,11 @@ const TopNavbar = () => {
               <img src={Profile} alt="" className="bg-light img-fluid" />
             </Nav>
             <NavDropdown
-              title=" John Doe"
+              title="John Doe"
               id="navbarScrollingDropdown"
               className="main-navdropdown"
             >
-              <NavDropdown.Item href="profile" className="nav-drop-down-item">
+              <NavDropdown.Item href="profile" className="nav-drop-down-item" style={{background: "transparent !important"}}>
                 profile
               </NavDropdown.Item>
               <NavDropdown.Item href="#action4" className="nav-drop-down-item">

@@ -20,7 +20,7 @@ const EducationPopUp = React.forwardRef((props, ref) => {
         aria-labelledby="educationModalLabel"
         aria-hidden="true"
       >
-        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div className="modal-dialog modal-dialog-centered  modal-lg">
           <PopUpFormEI />
         </div>
       </div>

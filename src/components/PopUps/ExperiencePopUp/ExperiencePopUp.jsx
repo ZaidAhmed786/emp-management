@@ -20,7 +20,7 @@ const ExperiencePopUp = React.forwardRef((props, ref) => {
         aria-labelledby="experienceModalLabel"
         aria-hidden="true"
       >
-        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div className="modal-dialog modal-dialog-centered  modal-lg">
           <PopUpFormExp />
         </div>
       </div>

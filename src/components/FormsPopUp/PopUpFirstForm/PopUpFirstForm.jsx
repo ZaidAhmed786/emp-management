@@ -7,7 +7,7 @@ const PopUpFirstForm = () => {
   const PopUpFirstForm = FPdata.PopUpFirstForm;
   return (
     <>
-      <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+      <div className="modal-dialog modal-dialog-centered  modal-lg">
         <div className="modal-content">
           <div className="modal-header">
             <button

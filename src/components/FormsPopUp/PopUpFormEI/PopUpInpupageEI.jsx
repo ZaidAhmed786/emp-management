@@ -30,6 +30,7 @@ const PopUpInpupageEI = ({ EIdata, index }) => {
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
+              style={{padding: "10px 12px", marginLeft: "10px"}}
             ></button>
             <ul className="dropdown-menu dropdown-menu-end">
               {EIdata.options.map((option, idx) => (

@@ -9,7 +9,7 @@ import PopUp from "../../PopUps/ProfilePopUp/ProfilePopUp";
 const DashboardProfile = () => {
   return (
     <>
-      <div>
+      <div style={{width: "100%"}}>
         <section className="profile-section ">
           <div className="container">
             <div className="row">
