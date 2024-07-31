@@ -1,11 +1,14 @@
 import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
 import EmployeName from "../../LocalComponent/Elements/Employe Name/EmployeName";
 import MonthYear from "../../LocalComponent/Elements/Month and Year/MonthYear";
 import Search from "../../LocalComponent/Elements/Search Button/Search";
 import Performance from "../Employe Performance/Performance";
 import { employeeData } from "../data";
+import EmployeDate from "../Elements/EmployeDate/EmployeDate";
 
 function EmployeDetails() {
+  const location = useLocation();
   const [employeeName, setEmployeeName] = useState("");
   const [selectedMonth, setSelectedMonth] = useState("");
   const [selectedYear, setSelectedYear] = useState("");
@@ -46,14 +49,23 @@ function EmployeDetails() {
     setFilteredData(filtered);
   };
 
+  const isAdminPage = location.pathname === "/attendance-page";
+
   return (
     <div>
       <div className="row mt-3">
         <div className="col-md-3 col-sm-6 col-12 mb-3">
-          <EmployeName
-            value={employeeName}
-            onChange={(e) => setEmployeeName(e.target.value)}
-          />
+          {isAdminPage ? (
+            <EmployeName
+              value={employeeName}
+              onChange={(e) => setEmployeeName(e.target.value)}
+            />
+          ) : (
+            <EmployeDate
+              value={employeeName}
+              onChange={(e) => setEmployeeName(e.target.value)}
+            />
+          )}
         </div>
         <div className="col-md-3 col-sm-6 col-12 mb-3">
           <MonthYear
