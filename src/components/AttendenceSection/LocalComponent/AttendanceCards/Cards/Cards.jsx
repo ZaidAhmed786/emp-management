@@ -4,11 +4,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import StatisticsCard from "../../StatisticsCard/StatisticsCard";
 import TodayActivity from "../../TodayActivity/TodayActivity";
+import "../../TimesheetCard/TimesheetCard.css";
 const Cards = () => {
   return (
     <>
-      <Container className="bg-white">
-        <Row>
+      <Container className="">
+        <Row className="card-container">
           <div className="col-lg-4 col-md-6 col-sm-12">
             <TimesheetCard />
           </div>

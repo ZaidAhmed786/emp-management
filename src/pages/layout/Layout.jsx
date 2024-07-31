@@ -8,8 +8,8 @@ const Layout = () => {
       <Navbar />
       <div className="layout">
         <div>
-          <Sidebar className = "sidebar"/>
-          <Outlet className = "outlet"/>
+          <Sidebar className="sidebar" />
+          <Outlet className="outlet" />
         </div>
       </div>
     </>

@@ -32,8 +32,8 @@ const DashboardProfile = () => {
         </section>
         <ProfileFristSection />
         <TabNav />
-        {/* <UserRoleTable/> */}
-        {/* <AddEmployeePopUp/> */}
+        <UserRoleTable />
+        <AddEmployeePopUp />
       </div>
     </>
   );

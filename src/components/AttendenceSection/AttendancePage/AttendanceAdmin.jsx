@@ -8,9 +8,9 @@ const AttendancePage = () => {
     <>
       <div>
         <PageDetails />
-        {/* <Cards /> */}
+        <Cards />
         <Attendance />
-        {/* <AddEmployeePopUp /> */}
+        <AddEmployeePopUp />
       </div>
     </>
   );

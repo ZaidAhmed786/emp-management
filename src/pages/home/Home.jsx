@@ -1,11 +1,12 @@
 import React from 'react' 
+
+import AdminDashboard from "../../components/Dashboard/AdminDashboard//Components/AdminInfoSection/AdminInfoSection";
 const Home = () => {
-   
   return (
     <>
-      {/* <div>ABCD Testing</div>  */}
+      <AdminDashboard />
     </>
-  )
-}
+  );
+};
 
 export default Home

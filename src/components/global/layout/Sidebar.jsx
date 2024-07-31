@@ -30,20 +30,30 @@ const Sidebar = () => {
 
    
   return (
-    <div ref = {ref}>
-      <nav className="sidebar" onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
+    <div ref={ref}>
+      <nav
+        className="sidebar"
+        onMouseEnter={mouseEnter}
+        onMouseLeave={mouseLeave}
+      >
         <div className="menu_content">
           <ul className="menu_items">
             <div className="menu_title menu_dahsboard"></div>
             <li className="item">
-              <Collapsible title = "Dashboard" icon = {<FiGrid/>}>
+              <Collapsible title="Dashboard" icon={<FiGrid />}>
                 <ul className="submenu_items">
-                  <a href="admin-dashboard" className="nav_link sublink">Admin Dashboard</a>
-                  <a href="admin-dashboard" className="nav_link sublink">Employee Dashboard</a>
+                  <a href="admin-dashboard" className="nav_link sublink">
+                    Admin Dashboard
+                  </a>
+                  <a href="admin-employee" className="nav_link sublink">
+                    Employee Dashboard
+                  </a>
                 </ul>
-                <ul className="submenu_items">
-                  <a href="admin-dashboard" className="nav_link sublink">Empoloyee Dashboard</a>
-                </ul>
+                {/* <ul className="submenu_items">
+                  <a href="admin-dashboard" className="nav_link sublink">
+                    Empoloyee Dashboard
+                  </a>
+                </ul> */}
               </Collapsible>
             </li>
           </ul>
@@ -59,16 +69,20 @@ const Sidebar = () => {
               </a>
             </li>
             <ul className="menu_items">
-            <div className="menu_title menu_dahsboard"></div>
-            <li className="item">
-              <Collapsible title = "Attendance" icon = {<FiGrid/>}>
-                <ul className="submenu_items">
-                  <a href="/attendance-admin" className="nav_link sublink">Attendance (Admin)</a>
-                  <a href="/attendance-employee" className="nav_link sublink">Attendance (Employee)</a>
-                </ul>
-              </Collapsible>
-            </li>
-          </ul>
+              <div className="menu_title menu_dahsboard"></div>
+              <li className="item">
+                <Collapsible title="Attendance" icon={<FiGrid />}>
+                  <ul className="submenu_items">
+                    <a href="/attendance-page" className="nav_link sublink">
+                      Attendance (Admin)
+                    </a>
+                    <a href="/attendanceemployee" className="nav_link sublink">
+                      Attendance (Employee)
+                    </a>
+                  </ul>
+                </Collapsible>
+              </li>
+            </ul>
             <li className="item">
               <a href="#" className="nav_link">
                 <span className="navlink_icon">
@@ -125,17 +139,25 @@ const Sidebar = () => {
           <div className="bottom_content">
             <div className="bottom expand_sidebar ">
               <span>Expand</span>
-              <RiExpandRightFill onClick = {()=>ref.current.firstChild.classList.remove("hoverable", "close")}/>
+              <RiExpandRightFill
+                onClick={() =>
+                  ref.current.firstChild.classList.remove("hoverable", "close")
+                }
+              />
             </div>
             <div className="bottom collapse_sidebar">
               <span>Collapse</span>
-              <RiExpandLeftFill onClick = {()=>ref.current.firstChild.classList.add("hoverable", "close")}/>
+              <RiExpandLeftFill
+                onClick={() =>
+                  ref.current.firstChild.classList.add("hoverable", "close")
+                }
+              />
             </div>
           </div>
         </div>
       </nav>
     </div>
-  )
+  );
 }
 
 export default Sidebar
