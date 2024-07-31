@@ -1,13 +1,32 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./Modal.css";
+import ProfilePopUp from "../../../PopUps/ProfilePopUp/ProfilePopUp";
 
 function Performance({ data = [], month, year }) {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedEmployee, setSelectedEmployee] = useState(null);
+  const modalButtonRef = useRef(null);
+
   const getDaysInMonth = (month, year) => {
     return new Date(year, month, 0).getDate();
   };
 
   const monthIndex = new Date(`${month} 1, ${year}`).getMonth() + 1;
   const daysInMonth = getDaysInMonth(monthIndex, year);
+
+  const handleImageClick = (employee) => {
+    setSelectedEmployee(employee);
+    if (modalButtonRef.current) {
+      modalButtonRef.current.click();
+    }
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+    setSelectedEmployee(null);
+  };
 
   return (
     <div
@@ -64,7 +83,9 @@ function Performance({ data = [], month, year }) {
                     height: "30px",
                     borderRadius: "50%",
                     marginRight: "10px",
+                    cursor: "pointer",
                   }}
+                  onClick={() => handleImageClick(emp)}
                 />
                 {emp.name}
               </td>
@@ -86,6 +107,7 @@ function Performance({ data = [], month, year }) {
           ))}
         </tbody>
       </table>
+      {showModal && <ProfilePopUp ref={modalButtonRef} />}
     </div>
   );
 }
