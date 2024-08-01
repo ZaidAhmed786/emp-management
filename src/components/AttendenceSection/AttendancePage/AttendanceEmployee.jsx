@@ -5,8 +5,10 @@ import Attendance from "../LocalComponent/Attendance/Attendance";
 const AttendanceEmployee = () => {
   return (
     <>
-      <PageDetails />
-      <Attendance />
+      <div className="w-100">
+        <PageDetails />
+        <Attendance />
+      </div>
     </>
   );
 };

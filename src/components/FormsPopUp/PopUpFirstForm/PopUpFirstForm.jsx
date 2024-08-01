@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../AddEmployeePopUp/AddEmployeePopUp.css";
 import FPdata from "../../../data.json";
 import PopUpFirstFormInputs from "./PopUpFirstFormInputs";
 
 const PopUpFirstForm = () => {
   const PopUpFirstForm = FPdata.PopUpFirstForm;
+
+  const [profileImage, setProfileImage] = useState(
+    "https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-02.jpg"
+  );
+
+  const handleImageChange = (e) => {
+    if (e.target.files && e.target.files[0]) {
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        setProfileImage(event.target.result);
+      };
+      reader.readAsDataURL(e.target.files[0]);
+    }
+  };
+
   return (
     <>
       <div className="modal-dialog modal-dialog-centered  modal-lg">
@@ -18,17 +33,32 @@ const PopUpFirstForm = () => {
             ></button>
           </div>
           <div className="modal-header d-grid justify-content-center">
-            <h3 className="modal-title text-center" id="exampleModalLabel">
-              Profile Information
+            <div className="modal-title text-center" id="exampleModalLabel">
+              <h3>Profile Information</h3>
               <div className="popuplogo d-grid justify-content-center my-3">
+                <div className="imageButtonMain">
+                  <button
+                    onClick={() => document.getElementById("fileInput").click()}
+                    className="imageEditButton"
+                  >
+                    edit
+                  </button>
+                </div>
                 <img
-                  typeof="file"
+                  id="profileImage"
                   className="img-fluid rounded-pill"
-                  src="https://smarthr.dreamstechnologies.com/tailwind/template/src/images/profiles/avatar-02.jpg"
-                  alt=""
+                  src={profileImage}
+                  alt="Profile"
+                />
+                <input
+                  type="file"
+                  id="fileInput"
+                  style={{ display: "none" }}
+                  accept="image/*"
+                  onChange={handleImageChange}
                 />
               </div>
-            </h3>
+            </div>
           </div>
           <div className="modal-body">
             <form>

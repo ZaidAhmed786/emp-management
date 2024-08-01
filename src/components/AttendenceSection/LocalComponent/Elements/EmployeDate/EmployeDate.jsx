@@ -10,10 +10,6 @@ const EmployeDate = ({ value, onChange }) => {
         }}
         className="bg-white border border-dark d-flex align-items-center shadow-sm "
       >
-        <label className="ms-2" htmlFor="">
-          {" "}
-          Date
-        </label>
         <input
           type="date"
           className="w-100 px-2 pt-1 pb-1 d-flex align-items-center justify-content-end"

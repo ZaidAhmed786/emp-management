@@ -6,7 +6,7 @@ import PageDetails from "../LocalComponent/Page Details/PageDetails";
 const AttendancePage = () => {
   return (
     <>
-      <div>
+      <div className="w-100">
         <PageDetails />
         <Cards />
         <Attendance />

@@ -23,7 +23,7 @@ const EmployeeHistory = () => {
 
   return (
     <>
-      <section className="EmployeeHistory bg-light">
+      <section className="EmployeeHistory w-100 bg-light">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">

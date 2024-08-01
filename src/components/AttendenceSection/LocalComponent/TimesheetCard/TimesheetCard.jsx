@@ -23,17 +23,17 @@ function TimesheetCard() {
         <div className="TimesheetCard-btn d-flex justify-content-center text-center">
           <button
             type="button"
-            className="d-flex text-center btn  btn-warning  px-5 py-2 rounded-pill  fw-bold text-white "
+            className="d-flex text-center btn  btn-warning px-3 py-2 rounded-pill  fw-bold text-white "
           >
             Punch Out
           </button>
         </div>
         <div className="two-txt-boxes-main-rapo d-flex justify-content-center gap-2 ">
-          <div className="first-txt-box border border-gray border-2   px-5 bg-light">
+          <div className="first-txt-box border border-gray border-2 px-4 bg-light">
             <p className="text-dark">Break</p>
             <h6 className="text-dark">1.21 hrs</h6>
           </div>
-          <div className="first-txt-box border border-gray border-2  px-5 bg-light">
+          <div className="first-txt-box border border-gray border-2 px-4 bg-light">
             <p className="text-dark">Break</p>
             <h6 className="text-dark">1.21 hrs</h6>
           </div>

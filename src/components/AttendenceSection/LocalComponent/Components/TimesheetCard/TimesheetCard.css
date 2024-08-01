@@ -36,8 +36,8 @@
     background-color: transparent;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
     border-radius: 0.25rem;
     --tw-text-opacity: 1;
     color: rgb(187 196 204 / var(--tw-text-opacity));
